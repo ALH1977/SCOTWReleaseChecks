@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>HTTPS Redirect - Not Logged In - LIVE</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b3f6d88f-fc9e-4418-a902-fbd401c0b9f0</testCaseGuid>
+</TestCaseEntity>
