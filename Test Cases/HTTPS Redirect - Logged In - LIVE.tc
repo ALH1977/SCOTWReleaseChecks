@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>GIVEN I have logged on to the application I am testing 
+WHEN I navigate to another OTW application using http rather than https in the URL e.g. http://labs.schoolcomms.com/payments
+THEN I am unable to access the screen using HTTP 
+AND I am redirected to the same URL on HTTPS e.g https://labs.schoolcomms.com/payments</description>
+   <name>HTTPS Redirect - Logged In - LIVE</name>
+   <tag>OTW: Payments on the web , OTW: Clubs on the web , OTW: Online reporting on the web, OTW: Dinners on the web , MOTW: Messaging on the Web, Management on the Web</tag>
+   <comment></comment>
+   <testCaseGuid>52adbf00-6bec-4fb8-b798-c933cf34fb93</testCaseGuid>
+</TestCaseEntity>

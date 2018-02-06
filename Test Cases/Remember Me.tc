@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>This test determines the 'remember me' button is working as expected on the Log in screen</description>
+   <name>Remember Me</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3ee14ad2-d377-4502-b5f7-37b411d62881</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>124180ac-7140-4a5c-958b-cf751c95d681</id>
+      <masked>false</masked>
+      <name>Username</name>
+   </variable>
+</TestCaseEntity>
