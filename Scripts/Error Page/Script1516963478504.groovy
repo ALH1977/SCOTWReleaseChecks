@@ -29,7 +29,7 @@ WebUI.setText(findTestObject('Page_Login  Schoolcomms/input_password'), GlobalVa
 
 WebUI.click(findTestObject('Page_Login  Schoolcomms/button_LOG IN'))
 
-WebUI.takeScreenshot('/Users/jamiefairlie/Desktop/error_page.png')
+WebUI.takeScreenshot('/Users/AndyHillier/Desktop/error_page.png')
 
 WebUI.getUrl()
 
