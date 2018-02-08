@@ -54,5 +54,6 @@ WebUI.delay(1)
 
 WebUI.click(findTestObject('Page_Active Payments  Schoolcomms/li_Log out'))
 
-WebUI.verifyElementAttributeValue(findTestObject('Page_Login  Schoolcomms/input_Username'), 'Value', GlobalVariable.Username, 0)
+WebUI.verifyElementAttributeValue(findTestObject('Page_Login  Schoolcomms/input_Username'), 'Value', GlobalVariable.Username, 
+    0)
 

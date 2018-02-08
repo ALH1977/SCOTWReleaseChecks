@@ -22,25 +22,27 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://labs.schoolcomms.com/login?ReturnUrl=%2fmessaging')
+WebUI.navigateToUrl('https://labs.schoolcomms.com/payments/login')
 
-WebUI.doubleClick(findTestObject('Page_Login  Schoolcomms/input_Username'))
+WebUI.setText(findTestObject('Page_Login  Schoolcomms (1)/input_Username'), 'SCATNPMUA')
 
-WebUI.setText(findTestObject('Page_Login  Schoolcomms/input_Username'), 'Hillier82')
+WebUI.setText(findTestObject('Page_Login  Schoolcomms (1)/input_memorabledata'), 'Summer2018')
 
-WebUI.setText(findTestObject('Page_Login  Schoolcomms/input_memorabledata'), 'Abigail2014')
+WebUI.setText(findTestObject('Page_Login  Schoolcomms (1)/input_password'), 'Summer2019')
 
-WebUI.setText(findTestObject('Page_Login  Schoolcomms/input_password'), 'Isabel2011')
-
-WebUI.click(findTestObject('Page_Login  Schoolcomms/button_LOG IN'))
-
-WebUI.navigateToUrl('http://labs.schoolcomms.com/payments/active')
-
-WebUI.waitForPageLoad(0)
+WebUI.click(findTestObject('Page_Login  Schoolcomms (1)/button_LOG IN'))
 
 url = WebUI.getUrl()
 
-WebUI.verifyEqual(url, 'https://labs.schoolcomms.com/payments/active')
+WebUI.verifyEqual(url, 'https://labs.schoolcomms.com/payments/')
+
+WebUI.takeScreenshot('/Users/AndyHillier/Desktop/Katalon/Test Screenshots/POTW - No Payment Subscription/No_Payment_Subscription.png')
+
+WebUI.click(findTestObject('Page_Payments  Schoolcomms (1)/div_menu-toggle'))
+
+WebUI.click(findTestObject('Page_Payments  Schoolcomms (1)/li_Clubs'))
+
+WebUI.takeScreenshot('/Users/AndyHillier/Desktop/Katalon/Test Screenshots/POTW - No Payment Subscription/Club_Page_Confirmation.png')
 
 WebUI.closeBrowser()
 

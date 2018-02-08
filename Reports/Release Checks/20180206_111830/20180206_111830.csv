@@ -1,0 +1,60 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Release Checks,IE 11,,2018-02-06 11:18:35,2018-02-06 11:20:24,1m - 49.052s,FAILED
+,,,,,,
+Test Cases/HTTPS Redirect - Not Logged In - LIVE,IE 11,,2018-02-06 11:18:36,2018-02-06 11:18:48,11.703s,PASSED
+openBrowser,IE 11,,2018-02-06 11:18:37,2018-02-06 11:18:45,7.642s,PASSED
+navigateToUrl,IE 11,,2018-02-06 11:18:45,2018-02-06 11:18:46,1.287s,PASSED
+waitForPageLoad,IE 11,,2018-02-06 11:18:46,2018-02-06 11:18:46,0.342s,PASSED
+Statement - url = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getUrl(),IE 11,,2018-02-06 11:18:46,2018-02-06 11:18:46,0.115s,PASSED
+verifyEqual,IE 11,,2018-02-06 11:18:46,2018-02-06 11:18:47,0.098s,PASSED
+closeBrowser,IE 11,,2018-02-06 11:18:47,2018-02-06 11:18:48,1.138s,PASSED
+,,,,,,
+Test Cases/HTTPS Redirect - Logged In - Labs,IE 11,GIVEN I have logged on to the application I am testing \nWHEN I navigate to another OTW application using http rather than https in the URL e.g. http://labs.schoolcomms.com/payments\nTHEN I am unable to access the screen using HTTP \nAND I am redirected to the same URL on HTTPS e.g https://labs.schoolcomms.com/payments,2018-02-06 11:18:48,2018-02-06 11:19:11,23.828s,FAILED
+openBrowser,IE 11,,2018-02-06 11:18:49,2018-02-06 11:18:52,2.875s,PASSED
+navigateToUrl,IE 11,,2018-02-06 11:18:52,2018-02-06 11:18:53,1.217s,PASSED
+doubleClick,IE 11,,2018-02-06 11:18:53,2018-02-06 11:18:54,1.125s,PASSED
+setText,IE 11,,2018-02-06 11:18:54,2018-02-06 11:18:56,1.450s,PASSED
+setText,IE 11,,2018-02-06 11:18:56,2018-02-06 11:18:57,1.308s,PASSED
+setText,IE 11,,2018-02-06 11:18:57,2018-02-06 11:18:58,1.435s,PASSED
+click,IE 11,,2018-02-06 11:18:58,2018-02-06 11:19:09,10.489s,PASSED
+navigateToUrl,IE 11,,2018-02-06 11:19:09,2018-02-06 11:19:10,0.691s,PASSED
+waitForPageLoad,IE 11,,2018-02-06 11:19:10,2018-02-06 11:19:11,1.924s,FAILED
+,,,,,,
+Test Cases/Error Page,IE 11,This confirms that the error pages are functioning correctly,2018-02-06 11:19:12,2018-02-06 11:19:34,22.354s,PASSED
+openBrowser,IE 11,,2018-02-06 11:19:12,2018-02-06 11:19:17,5.207s,PASSED
+setText,IE 11,,2018-02-06 11:19:17,2018-02-06 11:19:20,2.210s,PASSED
+setText,IE 11,,2018-02-06 11:19:20,2018-02-06 11:19:21,1.827s,PASSED
+setText,IE 11,,2018-02-06 11:19:21,2018-02-06 11:19:23,1.456s,PASSED
+click,IE 11,,2018-02-06 11:19:23,2018-02-06 11:19:25,1.762s,PASSED
+takeScreenshot,IE 11,,2018-02-06 11:19:25,2018-02-06 11:19:34,9.203s,PASSED
+getUrl,IE 11,,2018-02-06 11:19:34,2018-02-06 11:19:34,0.081s,PASSED
+,,,,,,
+Test Cases/HTTPS Redirect - Not Logged In - Labs,IE 11,,2018-02-06 11:19:34,2018-02-06 11:19:43,9.563s,PASSED
+openBrowser,IE 11,,2018-02-06 11:19:34,2018-02-06 11:19:41,6.484s,PASSED
+navigateToUrl,IE 11,,2018-02-06 11:19:41,2018-02-06 11:19:42,1.153s,PASSED
+waitForPageLoad,IE 11,,2018-02-06 11:19:42,2018-02-06 11:19:42,0.173s,PASSED
+Statement - url = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getUrl(),IE 11,,2018-02-06 11:19:42,2018-02-06 11:19:42,0.094s,PASSED
+verifyEqual,IE 11,,2018-02-06 11:19:42,2018-02-06 11:19:42,0.004s,PASSED
+closeBrowser,IE 11,,2018-02-06 11:19:42,2018-02-06 11:19:43,1.048s,PASSED
+,,,,,,
+Test Cases/Remember Me,IE 11,This test determines the 'remember me' button is working as expected on the Log in screen,2018-02-06 11:19:43,2018-02-06 11:20:10,26.471s,FAILED
+openBrowser,IE 11,,2018-02-06 11:19:44,2018-02-06 11:19:48,3.404s,PASSED
+setText,IE 11,,2018-02-06 11:19:48,2018-02-06 11:19:49,1.388s,PASSED
+setText,IE 11,,2018-02-06 11:19:49,2018-02-06 11:19:51,1.440s,PASSED
+setText,IE 11,,2018-02-06 11:19:51,2018-02-06 11:19:52,1.343s,PASSED
+click,IE 11,,2018-02-06 11:19:52,2018-02-06 11:19:54,2.495s,PASSED
+click,IE 11,,2018-02-06 11:19:54,2018-02-06 11:19:57,2.126s,PASSED
+delay,IE 11,,2018-02-06 11:19:57,2018-02-06 11:19:58,1.035s,PASSED
+click,IE 11,,2018-02-06 11:19:58,2018-02-06 11:20:00,2.385s,PASSED
+verifyElementAttributeValue,IE 11,,2018-02-06 11:20:00,2018-02-06 11:20:10,9.904s,FAILED
+,,,,,,
+Test Cases/HTTPS Redirect - Logged In - LIVE,IE 11,GIVEN I have logged on to the application I am testing \nWHEN I navigate to another OTW application using http rather than https in the URL e.g. http://labs.schoolcomms.com/payments\nTHEN I am unable to access the screen using HTTP \nAND I am redirected to the same URL on HTTPS e.g https://labs.schoolcomms.com/payments,2018-02-06 11:20:10,2018-02-06 11:20:23,12.673s,FAILED
+openBrowser,IE 11,,2018-02-06 11:20:10,2018-02-06 11:20:13,2.532s,PASSED
+navigateToUrl,IE 11,,2018-02-06 11:20:13,2018-02-06 11:20:13,0.508s,PASSED
+doubleClick,IE 11,,2018-02-06 11:20:13,2018-02-06 11:20:14,0.776s,PASSED
+setText,IE 11,,2018-02-06 11:20:14,2018-02-06 11:20:15,0.970s,PASSED
+setText,IE 11,,2018-02-06 11:20:15,2018-02-06 11:20:16,0.890s,PASSED
+setText,IE 11,,2018-02-06 11:20:16,2018-02-06 11:20:17,0.862s,PASSED
+click,IE 11,,2018-02-06 11:20:17,2018-02-06 11:20:21,3.911s,PASSED
+navigateToUrl,IE 11,,2018-02-06 11:20:21,2018-02-06 11:20:21,0.215s,PASSED
+waitForPageLoad,IE 11,,2018-02-06 11:20:21,2018-02-06 11:20:23,1.806s,FAILED

@@ -1,0 +1,77 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Release Checks,Chrome 63.0.3239.132,,2018-02-06 11:18:35,2018-02-06 11:19:46,1m - 11.253s,PASSED
+,,,,,,
+Test Cases/HTTPS Redirect - Not Logged In - LIVE,Chrome 63.0.3239.132,,2018-02-06 11:18:36,2018-02-06 11:18:47,10.880s,PASSED
+openBrowser,Chrome 63.0.3239.132,,2018-02-06 11:18:37,2018-02-06 11:18:44,7.159s,PASSED
+navigateToUrl,Chrome 63.0.3239.132,,2018-02-06 11:18:44,2018-02-06 11:18:46,1.831s,PASSED
+waitForPageLoad,Chrome 63.0.3239.132,,2018-02-06 11:18:46,2018-02-06 11:18:46,0.112s,PASSED
+Statement - url = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getUrl(),Chrome 63.0.3239.132,,2018-02-06 11:18:46,2018-02-06 11:18:46,0.030s,PASSED
+verifyEqual,Chrome 63.0.3239.132,,2018-02-06 11:18:46,2018-02-06 11:18:46,0.060s,PASSED
+closeBrowser,Chrome 63.0.3239.132,,2018-02-06 11:18:46,2018-02-06 11:18:47,0.861s,PASSED
+,,,,,,
+Test Cases/HTTPS Redirect - Logged In - Labs,Chrome 63.0.3239.132,GIVEN I have logged on to the application I am testing \nWHEN I navigate to another OTW application using http rather than https in the URL e.g. http://labs.schoolcomms.com/payments\nTHEN I am unable to access the screen using HTTP \nAND I am redirected to the same URL on HTTPS e.g https://labs.schoolcomms.com/payments,2018-02-06 11:18:47,2018-02-06 11:19:07,20.507s,PASSED
+openBrowser,Chrome 63.0.3239.132,,2018-02-06 11:18:48,2018-02-06 11:18:51,3.239s,PASSED
+navigateToUrl,Chrome 63.0.3239.132,,2018-02-06 11:18:51,2018-02-06 11:18:52,1.404s,PASSED
+doubleClick,Chrome 63.0.3239.132,,2018-02-06 11:18:52,2018-02-06 11:18:53,0.227s,PASSED
+setText,Chrome 63.0.3239.132,,2018-02-06 11:18:53,2018-02-06 11:18:53,0.267s,PASSED
+setText,Chrome 63.0.3239.132,,2018-02-06 11:18:53,2018-02-06 11:18:53,0.304s,PASSED
+setText,Chrome 63.0.3239.132,,2018-02-06 11:18:53,2018-02-06 11:18:54,0.325s,PASSED
+click,Chrome 63.0.3239.132,,2018-02-06 11:18:54,2018-02-06 11:19:04,10.420s,PASSED
+navigateToUrl,Chrome 63.0.3239.132,,2018-02-06 11:19:04,2018-02-06 11:19:05,1.454s,PASSED
+waitForPageLoad,Chrome 63.0.3239.132,,2018-02-06 11:19:05,2018-02-06 11:19:06,0.090s,PASSED
+Statement - url = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getUrl(),Chrome 63.0.3239.132,,2018-02-06 11:19:06,2018-02-06 11:19:06,0.056s,PASSED
+verifyEqual,Chrome 63.0.3239.132,,2018-02-06 11:19:06,2018-02-06 11:19:06,0.012s,PASSED
+takeScreenshot,Chrome 63.0.3239.132,,2018-02-06 11:19:06,2018-02-06 11:19:06,0.730s,PASSED
+closeBrowser,Chrome 63.0.3239.132,,2018-02-06 11:19:06,2018-02-06 11:19:07,0.857s,PASSED
+,,,,,,
+Test Cases/Error Page,Chrome 63.0.3239.132,This confirms that the error pages are functioning correctly,2018-02-06 11:19:07,2018-02-06 11:19:14,6.619s,PASSED
+openBrowser,Chrome 63.0.3239.132,,2018-02-06 11:19:08,2018-02-06 11:19:12,3.811s,PASSED
+setText,Chrome 63.0.3239.132,,2018-02-06 11:19:12,2018-02-06 11:19:12,0.418s,PASSED
+setText,Chrome 63.0.3239.132,,2018-02-06 11:19:12,2018-02-06 11:19:12,0.206s,PASSED
+setText,Chrome 63.0.3239.132,,2018-02-06 11:19:12,2018-02-06 11:19:13,0.219s,PASSED
+click,Chrome 63.0.3239.132,,2018-02-06 11:19:13,2018-02-06 11:19:13,0.800s,PASSED
+takeScreenshot,Chrome 63.0.3239.132,,2018-02-06 11:19:13,2018-02-06 11:19:14,0.504s,PASSED
+getUrl,Chrome 63.0.3239.132,,2018-02-06 11:19:14,2018-02-06 11:19:14,0.012s,PASSED
+,,,,,,
+Test Cases/HTTPS Redirect - Not Logged In - Labs,Chrome 63.0.3239.132,,2018-02-06 11:19:14,2018-02-06 11:19:22,8.451s,PASSED
+openBrowser,Chrome 63.0.3239.132,,2018-02-06 11:19:14,2018-02-06 11:19:20,5.759s,PASSED
+navigateToUrl,Chrome 63.0.3239.132,,2018-02-06 11:19:20,2018-02-06 11:19:21,1.511s,PASSED
+waitForPageLoad,Chrome 63.0.3239.132,,2018-02-06 11:19:21,2018-02-06 11:19:21,0.021s,PASSED
+Statement - url = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getUrl(),Chrome 63.0.3239.132,,2018-02-06 11:19:21,2018-02-06 11:19:21,0.032s,PASSED
+verifyEqual,Chrome 63.0.3239.132,,2018-02-06 11:19:21,2018-02-06 11:19:21,0.002s,PASSED
+closeBrowser,Chrome 63.0.3239.132,,2018-02-06 11:19:21,2018-02-06 11:19:22,0.835s,PASSED
+,,,,,,
+Test Cases/Remember Me,Chrome 63.0.3239.132,This test determines the 'remember me' button is working as expected on the Log in screen,2018-02-06 11:19:22,2018-02-06 11:19:33,11.047s,PASSED
+openBrowser,Chrome 63.0.3239.132,,2018-02-06 11:19:23,2018-02-06 11:19:27,3.608s,PASSED
+setText,Chrome 63.0.3239.132,,2018-02-06 11:19:27,2018-02-06 11:19:27,0.256s,PASSED
+setText,Chrome 63.0.3239.132,,2018-02-06 11:19:27,2018-02-06 11:19:27,0.260s,PASSED
+setText,Chrome 63.0.3239.132,,2018-02-06 11:19:27,2018-02-06 11:19:27,0.218s,PASSED
+click,Chrome 63.0.3239.132,,2018-02-06 11:19:27,2018-02-06 11:19:29,1.388s,PASSED
+click,Chrome 63.0.3239.132,,2018-02-06 11:19:29,2018-02-06 11:19:29,0.396s,PASSED
+delay,Chrome 63.0.3239.132,,2018-02-06 11:19:29,2018-02-06 11:19:30,1.017s,PASSED
+click,Chrome 63.0.3239.132,,2018-02-06 11:19:30,2018-02-06 11:19:30,0.370s,PASSED
+verifyElementAttributeValue,Chrome 63.0.3239.132,,2018-02-06 11:19:30,2018-02-06 11:19:31,0.064s,PASSED
+setText,Chrome 63.0.3239.132,,2018-02-06 11:19:31,2018-02-06 11:19:31,0.236s,PASSED
+setText,Chrome 63.0.3239.132,,2018-02-06 11:19:31,2018-02-06 11:19:31,0.148s,PASSED
+setText,Chrome 63.0.3239.132,,2018-02-06 11:19:31,2018-02-06 11:19:31,0.146s,PASSED
+click,Chrome 63.0.3239.132,,2018-02-06 11:19:31,2018-02-06 11:19:31,0.079s,PASSED
+click,Chrome 63.0.3239.132,,2018-02-06 11:19:31,2018-02-06 11:19:32,0.582s,PASSED
+click,Chrome 63.0.3239.132,,2018-02-06 11:19:32,2018-02-06 11:19:32,0.182s,PASSED
+delay,Chrome 63.0.3239.132,,2018-02-06 11:19:32,2018-02-06 11:19:33,1.007s,PASSED
+click,Chrome 63.0.3239.132,,2018-02-06 11:19:33,2018-02-06 11:19:33,0.352s,PASSED
+verifyElementAttributeValue,Chrome 63.0.3239.132,,2018-02-06 11:19:33,2018-02-06 11:19:33,0.091s,PASSED
+,,,,,,
+Test Cases/HTTPS Redirect - Logged In - LIVE,Chrome 63.0.3239.132,GIVEN I have logged on to the application I am testing \nWHEN I navigate to another OTW application using http rather than https in the URL e.g. http://labs.schoolcomms.com/payments\nTHEN I am unable to access the screen using HTTP \nAND I am redirected to the same URL on HTTPS e.g https://labs.schoolcomms.com/payments,2018-02-06 11:19:33,2018-02-06 11:19:46,12.530s,PASSED
+openBrowser,Chrome 63.0.3239.132,,2018-02-06 11:19:34,2018-02-06 11:19:37,3.507s,PASSED
+navigateToUrl,Chrome 63.0.3239.132,,2018-02-06 11:19:37,2018-02-06 11:19:39,1.511s,PASSED
+doubleClick,Chrome 63.0.3239.132,,2018-02-06 11:19:39,2018-02-06 11:19:39,0.108s,PASSED
+setText,Chrome 63.0.3239.132,,2018-02-06 11:19:39,2018-02-06 11:19:39,0.265s,PASSED
+setText,Chrome 63.0.3239.132,,2018-02-06 11:19:39,2018-02-06 11:19:40,0.266s,PASSED
+setText,Chrome 63.0.3239.132,,2018-02-06 11:19:40,2018-02-06 11:19:40,0.185s,PASSED
+click,Chrome 63.0.3239.132,,2018-02-06 11:19:40,2018-02-06 11:19:43,3.010s,PASSED
+navigateToUrl,Chrome 63.0.3239.132,,2018-02-06 11:19:43,2018-02-06 11:19:44,1.565s,PASSED
+waitForPageLoad,Chrome 63.0.3239.132,,2018-02-06 11:19:44,2018-02-06 11:19:44,0.127s,PASSED
+Statement - url = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getUrl(),Chrome 63.0.3239.132,,2018-02-06 11:19:44,2018-02-06 11:19:44,0.018s,PASSED
+verifyEqual,Chrome 63.0.3239.132,,2018-02-06 11:19:44,2018-02-06 11:19:44,0.003s,PASSED
+takeScreenshot,Chrome 63.0.3239.132,,2018-02-06 11:19:44,2018-02-06 11:19:45,0.427s,PASSED
+closeBrowser,Chrome 63.0.3239.132,,2018-02-06 11:19:45,2018-02-06 11:19:46,1.011s,PASSED
