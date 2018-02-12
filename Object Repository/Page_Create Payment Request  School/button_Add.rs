@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Add</name>
+   <tag></tag>
+   <elementGuidId>db55655d-b82a-40d7-b0c3-2c6403995764</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-click</name>
+      <type>Main</type>
+      <value>ctrl.addMembers()</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-ng-disabled</name>
+      <type>Main</type>
+      <value>ctrl.highlightedItems.length === 0</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-disabled</name>
+      <type>Main</type>
+      <value>false</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Add </value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/app-container[@class=&quot;app-container&quot;]/main[@class=&quot;main-container u-direction-row&quot;]/div[@class=&quot;flex&quot;]/div[@class=&quot;u-direction-row flex&quot;]/main[@class=&quot;content no-item-drawer flex&quot;]/div[@class=&quot;content-area  with-action-drawer&quot;]/div[@class=&quot;u-overflow-hidden u-direction-row u-full-height flex&quot;]/div[@class=&quot;u-flex-stretch u-overflow-y-auto scroll-spy-scroller&quot;]/div[@class=&quot;content-main&quot;]/form[@class=&quot;ng-invalid ng-valid-maxlength ng-valid-required-if ng-valid-multiple-instalments ng-valid-number ng-valid-less-than-or-equal-to-date ng-valid-minimum-amount-for-consent ng-dirty ng-valid-parse ng-invalid-is-date ng-valid-greater-than-or-equal-to-date ng-valid-required ng-valid-minimum-amount&quot;]/div[@class=&quot;page school-members active&quot;]/div[@class=&quot;page-content&quot;]/div[@class=&quot;button-container u-inline-block flex&quot;]/button[@class=&quot;btn&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>
