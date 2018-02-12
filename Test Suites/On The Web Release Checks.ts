@@ -14,25 +14,25 @@
       <guid>7fa60d2f-d382-4b04-b33b-fe5409db4730</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Error Page</testCaseId>
+      <testCaseId>Test Cases/OTW - Step 1 - Error Page</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>fbdd8a71-1bc1-4cf5-8369-4eaadfef5a09</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Step 2 - POTW - HTTPS Redirect - Logged In - Labs</testCaseId>
+      <testCaseId>Test Cases/OTW - Step 2 - HTTPS Redirect - Logged In - Labs</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>70ad37a1-3958-414b-bfd3-6daaa754ede7</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Step 1 - POTW - HTTPS Redirect - Not Logged In - Labs</testCaseId>
+      <testCaseId>Test Cases/OTW - Page 1 - HTTPS Redirect - Not Logged In - Labs</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>dd16dc7d-15e8-4d73-a3e8-6c1d90386d34</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Remember Me</testCaseId>
+      <testCaseId>Test Cases/OTW - Login_Logout - Remember Me</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
