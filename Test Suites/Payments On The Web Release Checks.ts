@@ -14,6 +14,6 @@
       <guid>410dcf10-4606-4bcd-b221-73d90bde2a53</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/POTW - No payment Subscription landing page</testCaseId>
+      <testCaseId>Test Cases/Step 1 - POTW - Landing Pages - No payment Subscription landing page</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

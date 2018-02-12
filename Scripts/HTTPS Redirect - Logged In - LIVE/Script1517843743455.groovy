@@ -42,7 +42,5 @@ url = WebUI.getUrl()
 
 WebUI.verifyEqual(url, 'https://app.schoolcomms.com/payments/active')
 
-WebUI.takeScreenshot()
-
 WebUI.closeBrowser()
 

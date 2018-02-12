@@ -4,7 +4,7 @@
 WHEN I log in to POTW
 THEN I will be on the No payments subscription landing page
 AND I can click the hamburger icon in the corner to navigate to another area OTW</description>
-   <name>POTW - No payment Subscription landing page</name>
+   <name>Step 1 - POTW - Landing Pages - No payment Subscription landing page</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>0b9a2271-d651-4bf5-832a-779180e3ef0b</testCaseGuid>

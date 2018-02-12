@@ -19,17 +19,23 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser('https://labs.schoolcomms.com/payments/;alskdfj')
+WebUI.openBrowser('')
 
-WebUI.setText(findTestObject('Page_Login  Schoolcomms/input_Username'), GlobalVariable.Username)
+WebUI.navigateToUrl('https://labs.schoolcomms.com/payments/login')
 
-WebUI.setText(findTestObject('Page_Login  Schoolcomms/input_memorabledata'), GlobalVariable.Memorable_Data)
+WebUI.setText(findTestObject('Page_Login  Schoolcomms (1)/input_Username'), 'SCATPMUA')
 
-WebUI.setText(findTestObject('Page_Login  Schoolcomms/input_password'), GlobalVariable.Password)
+WebUI.setText(findTestObject('Page_Login  Schoolcomms (1)/input_memorabledata'), 'Summer2018')
 
-WebUI.click(findTestObject('Page_Login  Schoolcomms/button_LOG IN'))
+WebUI.setText(findTestObject('Page_Login  Schoolcomms (1)/input_password'), 'Summer2019')
 
-WebUI.takeScreenshot('C:\\Windows\\Temp\\KatalonCaptures\\errorpage.png')
+WebUI.click(findTestObject('Page_Login  Schoolcomms (1)/button_LOG IN'))
 
-WebUI.getUrl()
+url = WebUI.getUrl()
+
+WebUI.verifyEqual(url, 'https://labs.schoolcomms.com/payments/')
+
+WebUI.takeScreenshot('C:\\Windows\\Temp\\KatalonCaptures\\Create_Bank_Account.png')
+
+WebUI.closeBrowser()
 
