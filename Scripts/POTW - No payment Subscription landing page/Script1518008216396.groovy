@@ -42,7 +42,7 @@ WebUI.click(findTestObject('Page_Payments  Schoolcomms (1)/div_menu-toggle'))
 
 WebUI.click(findTestObject('Page_Payments  Schoolcomms (1)/li_Clubs'))
 
-WebUI.takeScreenshot('/Users/AndyHillier/Desktop/Katalon/Test Screenshots/POTW - No Payment Subscription/Club_Page_Confirmation.png')
+WebUI.takeScreenshot('C:\\Windows\\Temp\\KatalonCaptures\\No_Pay_Sub_Land_Page.png')
 
 WebUI.closeBrowser()
 
