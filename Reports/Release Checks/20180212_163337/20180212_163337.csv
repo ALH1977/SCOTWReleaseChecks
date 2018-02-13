@@ -1,0 +1,75 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Release Checks,Firefox 52.0,,2018-02-12 16:33:41,2018-02-12 16:36:42,3m - 0.623s,PASSED
+,,,,,,
+Test Cases/HTTPS Redirect - Not Logged In - LIVE,Firefox 52.0,,2018-02-12 16:33:42,2018-02-12 16:34:14,31.905s,PASSED
+openBrowser,Firefox 52.0,,2018-02-12 16:33:43,2018-02-12 16:34:05,21.745s,PASSED
+navigateToUrl,Firefox 52.0,,2018-02-12 16:34:05,2018-02-12 16:34:12,7.369s,PASSED
+waitForPageLoad,Firefox 52.0,,2018-02-12 16:34:12,2018-02-12 16:34:13,0.504s,PASSED
+Statement - url = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getUrl(),Firefox 52.0,,2018-02-12 16:34:13,2018-02-12 16:34:13,0.324s,PASSED
+verifyEqual,Firefox 52.0,,2018-02-12 16:34:13,2018-02-12 16:34:13,0.069s,PASSED
+closeBrowser,Firefox 52.0,,2018-02-12 16:34:13,2018-02-12 16:34:14,1.133s,PASSED
+,,,,,,
+Test Cases/Step 2 - POTW - HTTPS Redirect - Logged In - Labs,Firefox 52.0,GIVEN I have logged on to the application I am testing \nWHEN I navigate to another OTW application using http rather than https in the URL e.g. http://labs.schoolcomms.com/payments\nTHEN I am unable to access the screen using HTTP \nAND I am redirected to the same URL on HTTPS e.g https://labs.schoolcomms.com/payments,2018-02-12 16:34:14,2018-02-12 16:35:01,46.876s,PASSED
+openBrowser,Firefox 52.0,,2018-02-12 16:34:15,2018-02-12 16:34:27,12.015s,PASSED
+navigateToUrl,Firefox 52.0,,2018-02-12 16:34:27,2018-02-12 16:34:31,4.008s,PASSED
+doubleClick,Firefox 52.0,,2018-02-12 16:34:31,2018-02-12 16:34:32,0.911s,PASSED
+setText,Firefox 52.0,,2018-02-12 16:34:32,2018-02-12 16:34:33,1.103s,PASSED
+setText,Firefox 52.0,,2018-02-12 16:34:33,2018-02-12 16:34:33,0.548s,PASSED
+setText,Firefox 52.0,,2018-02-12 16:34:33,2018-02-12 16:34:34,0.595s,PASSED
+click,Firefox 52.0,,2018-02-12 16:34:34,2018-02-12 16:34:58,23.669s,PASSED
+navigateToUrl,Firefox 52.0,,2018-02-12 16:34:58,2018-02-12 16:35:00,2.359s,PASSED
+waitForPageLoad,Firefox 52.0,,2018-02-12 16:35:00,2018-02-12 16:35:00,0.118s,PASSED
+Statement - url = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getUrl(),Firefox 52.0,,2018-02-12 16:35:00,2018-02-12 16:35:00,0.067s,PASSED
+verifyEqual,Firefox 52.0,,2018-02-12 16:35:00,2018-02-12 16:35:00,0.004s,PASSED
+closeBrowser,Firefox 52.0,,2018-02-12 16:35:00,2018-02-12 16:35:01,0.800s,PASSED
+,,,,,,
+Test Cases/Error Page,Firefox 52.0,This confirms that the error pages are functioning correctly,2018-02-12 16:35:01,2018-02-12 16:35:20,19.297s,PASSED
+openBrowser,Firefox 52.0,,2018-02-12 16:35:02,2018-02-12 16:35:15,13.548s,PASSED
+setText,Firefox 52.0,,2018-02-12 16:35:15,2018-02-12 16:35:17,1.268s,PASSED
+setText,Firefox 52.0,,2018-02-12 16:35:17,2018-02-12 16:35:17,0.630s,PASSED
+setText,Firefox 52.0,,2018-02-12 16:35:17,2018-02-12 16:35:18,0.367s,PASSED
+click,Firefox 52.0,,2018-02-12 16:35:18,2018-02-12 16:35:20,2.409s,PASSED
+takeScreenshot,Firefox 52.0,,2018-02-12 16:35:20,2018-02-12 16:35:20,0.296s,PASSED
+getUrl,Firefox 52.0,,2018-02-12 16:35:20,2018-02-12 16:35:20,0.032s,PASSED
+,,,,,,
+Test Cases/Step 1 - POTW - HTTPS Redirect - Not Logged In - Labs,Firefox 52.0,,2018-02-12 16:35:20,2018-02-12 16:35:40,19.474s,PASSED
+openBrowser,Firefox 52.0,,2018-02-12 16:35:21,2018-02-12 16:35:38,16.914s,PASSED
+navigateToUrl,Firefox 52.0,,2018-02-12 16:35:38,2018-02-12 16:35:39,1.329s,PASSED
+waitForPageLoad,Firefox 52.0,,2018-02-12 16:35:39,2018-02-12 16:35:39,0.058s,PASSED
+Statement - url = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getUrl(),Firefox 52.0,,2018-02-12 16:35:39,2018-02-12 16:35:39,0.044s,PASSED
+verifyEqual,Firefox 52.0,,2018-02-12 16:35:39,2018-02-12 16:35:39,0.005s,PASSED
+closeBrowser,Firefox 52.0,,2018-02-12 16:35:39,2018-02-12 16:35:40,0.546s,PASSED
+,,,,,,
+Test Cases/Remember Me,Firefox 52.0,This test determines the 'remember me' button is working as expected on the Log in screen,2018-02-12 16:35:40,2018-02-12 16:36:10,30.497s,PASSED
+openBrowser,Firefox 52.0,,2018-02-12 16:35:41,2018-02-12 16:35:53,12.796s,PASSED
+setText,Firefox 52.0,,2018-02-12 16:35:53,2018-02-12 16:35:54,0.769s,PASSED
+setText,Firefox 52.0,,2018-02-12 16:35:54,2018-02-12 16:35:55,0.547s,PASSED
+setText,Firefox 52.0,,2018-02-12 16:35:55,2018-02-12 16:35:55,0.534s,PASSED
+click,Firefox 52.0,,2018-02-12 16:35:55,2018-02-12 16:35:59,3.340s,PASSED
+click,Firefox 52.0,,2018-02-12 16:35:59,2018-02-12 16:35:59,0.952s,PASSED
+delay,Firefox 52.0,,2018-02-12 16:35:59,2018-02-12 16:36:00,1.021s,PASSED
+click,Firefox 52.0,,2018-02-12 16:36:00,2018-02-12 16:36:01,0.903s,PASSED
+verifyElementAttributeValue,Firefox 52.0,,2018-02-12 16:36:01,2018-02-12 16:36:02,0.244s,PASSED
+setText,Firefox 52.0,,2018-02-12 16:36:02,2018-02-12 16:36:02,0.494s,PASSED
+setText,Firefox 52.0,,2018-02-12 16:36:02,2018-02-12 16:36:02,0.364s,PASSED
+setText,Firefox 52.0,,2018-02-12 16:36:02,2018-02-12 16:36:03,0.357s,PASSED
+click,Firefox 52.0,,2018-02-12 16:36:03,2018-02-12 16:36:04,1.235s,PASSED
+click,Firefox 52.0,,2018-02-12 16:36:04,2018-02-12 16:36:07,3.250s,PASSED
+click,Firefox 52.0,,2018-02-12 16:36:07,2018-02-12 16:36:08,0.865s,PASSED
+delay,Firefox 52.0,,2018-02-12 16:36:08,2018-02-12 16:36:09,1.002s,PASSED
+click,Firefox 52.0,,2018-02-12 16:36:09,2018-02-12 16:36:10,0.842s,PASSED
+verifyElementAttributeValue,Firefox 52.0,,2018-02-12 16:36:10,2018-02-12 16:36:10,0.266s,PASSED
+,,,,,,
+Test Cases/HTTPS Redirect - Logged In - LIVE,Firefox 52.0,GIVEN I have logged on to the application I am testing \nWHEN I navigate to another OTW application using http rather than https in the URL e.g. http://labs.schoolcomms.com/payments\nTHEN I am unable to access the screen using HTTP \nAND I am redirected to the same URL on HTTPS e.g https://labs.schoolcomms.com/payments,2018-02-12 16:36:10,2018-02-12 16:36:42,31.170s,PASSED
+openBrowser,Firefox 52.0,,2018-02-12 16:36:12,2018-02-12 16:36:27,14.782s,PASSED
+navigateToUrl,Firefox 52.0,,2018-02-12 16:36:27,2018-02-12 16:36:28,1.595s,PASSED
+doubleClick,Firefox 52.0,,2018-02-12 16:36:28,2018-02-12 16:36:29,0.849s,PASSED
+setText,Firefox 52.0,,2018-02-12 16:36:29,2018-02-12 16:36:30,0.635s,PASSED
+setText,Firefox 52.0,,2018-02-12 16:36:30,2018-02-12 16:36:30,0.350s,PASSED
+setText,Firefox 52.0,,2018-02-12 16:36:30,2018-02-12 16:36:30,0.378s,PASSED
+click,Firefox 52.0,,2018-02-12 16:36:30,2018-02-12 16:36:37,6.980s,PASSED
+navigateToUrl,Firefox 52.0,,2018-02-12 16:36:37,2018-02-12 16:36:40,2.432s,PASSED
+waitForPageLoad,Firefox 52.0,,2018-02-12 16:36:40,2018-02-12 16:36:40,0.236s,PASSED
+Statement - url = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getUrl(),Firefox 52.0,,2018-02-12 16:36:40,2018-02-12 16:36:40,0.112s,PASSED
+verifyEqual,Firefox 52.0,,2018-02-12 16:36:40,2018-02-12 16:36:40,0.002s,PASSED
+closeBrowser,Firefox 52.0,,2018-02-12 16:36:40,2018-02-12 16:36:42,1.360s,PASSED

@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Release Checks" time="214" tests="6" failures="0" errors="0">
+   <testsuite name="Release Checks" tests="6" failures="0" errors="0" time="214" timestamp="2018-02-12 16:40:37" hostname="jamiefairlie - 10.211.55.4" id="Test Suites/Release Checks">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\jamiefairlie\\Documents\\SCOTWReleaseChecks\\Reports\\Release Checks\\20180212_164031"/>
+         <property name="logFiles" value="C:\\Users\\jamiefairlie\\Documents\\SCOTWReleaseChecks\\Reports\\Release Checks\\20180212_164031\\execution0.log"/>
+         <property name="attachments" value="C:\\Windows\\Temp\\KatalonCaptures\\errorpage.png"/>
+         <property name="hostName" value="jamiefairlie - 10.211.55.4"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.0.1"/>
+         <property name="browser" value="Firefox 52.0"/>
+         <property name="hostAddress" value="10.211.55.4"/>
+         <property name="sessionId" value="960ccd68-633f-47d6-bed8-3298f1e064ea"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/HTTPS Redirect - Not Logged In - LIVE" classname="Test Cases/HTTPS Redirect - Not Logged In - LIVE" status="PASSED">
+         <system-out><![CDATA[2018-02-12 16:40:40 - [TEST_CASE][PASSED] - Test Cases/HTTPS Redirect - Not Logged In - LIVE: Test Cases/HTTPS Redirect - Not Logged In - LIVE
+
+2018-02-12 16:40:40 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'www.google.co.uk'
+
+2018-02-12 16:41:27 - [MESSAGE][PASSED] - Browser is opened with url: 'www.google.co.uk'
+
+2018-02-12 16:41:27 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://app.schoolcomms.com/messaging' successfully
+
+2018-02-12 16:41:31 - [MESSAGE][PASSED] - Navigate to 'http://app.schoolcomms.com/messaging' successfully
+
+2018-02-12 16:41:31 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-02-12 16:41:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-02-12 16:41:31 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-02-12 16:41:31 - [TEST_STEP][PASSED] - Statement - url = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getUrl(): Current window's url is: 'https://app.schoolcomms.com/login?ReturnUrl=%2fmessaging'
+
+2018-02-12 16:41:31 - [MESSAGE][PASSED] - Current window's url is: 'https://app.schoolcomms.com/login?ReturnUrl=%2fmessaging'
+
+2018-02-12 16:41:31 - [TEST_STEP][PASSED] - verifyEqual: Actual object 'https://app.schoolcomms.com/login?ReturnUrl=%2fmessaging' and expected object 'https://app.schoolcomms.com/login?ReturnUrl=%2fmessaging' are equal
+
+2018-02-12 16:41:31 - [MESSAGE][PASSED] - Actual object 'https://app.schoolcomms.com/login?ReturnUrl=%2fmessaging' and expected object 'https://app.schoolcomms.com/login?ReturnUrl=%2fmessaging' are equal
+
+2018-02-12 16:41:31 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-02-12 16:41:33 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Step 2 - POTW - HTTPS Redirect - Logged In - Labs" classname="Test Cases/Step 2 - POTW - HTTPS Redirect - Logged In - Labs" status="PASSED">
+         <system-out><![CDATA[2018-02-12 16:41:33 - [TEST_CASE][PASSED] - Test Cases/Step 2 - POTW - HTTPS Redirect - Logged In - Labs: Test Cases/Step 2 - POTW - HTTPS Redirect - Logged In - Labs
+
+2018-02-12 16:41:34 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-02-12 16:42:01 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-02-12 16:42:01 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://labs.schoolcomms.com/login?ReturnUrl=%2fmessaging' successfully
+
+2018-02-12 16:42:03 - [MESSAGE][PASSED] - Navigate to 'https://labs.schoolcomms.com/login?ReturnUrl=%2fmessaging' successfully
+
+2018-02-12 16:42:03 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/Page_Login  Schoolcomms/input_Username' is double clicked on
+
+2018-02-12 16:42:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login  Schoolcomms/input_Username' is double clicked on
+
+2018-02-12 16:42:06 - [TEST_STEP][PASSED] - setText: Text 'Hillier82' is set on object 'Object Repository/Page_Login  Schoolcomms/input_Username'
+
+2018-02-12 16:42:06 - [MESSAGE][PASSED] - Text 'Hillier82' is set on object 'Object Repository/Page_Login  Schoolcomms/input_Username'
+
+2018-02-12 16:42:06 - [TEST_STEP][PASSED] - setText: Text 'Abigail2014' is set on object 'Object Repository/Page_Login  Schoolcomms/input_memorabledata'
+
+2018-02-12 16:42:07 - [MESSAGE][PASSED] - Text 'Abigail2014' is set on object 'Object Repository/Page_Login  Schoolcomms/input_memorabledata'
+
+2018-02-12 16:42:07 - [TEST_STEP][PASSED] - setText: Text 'Isabel2011' is set on object 'Object Repository/Page_Login  Schoolcomms/input_password'
+
+2018-02-12 16:42:07 - [MESSAGE][PASSED] - Text 'Isabel2011' is set on object 'Object Repository/Page_Login  Schoolcomms/input_password'
+
+2018-02-12 16:42:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Login  Schoolcomms/button_LOG IN' is clicked on
+
+2018-02-12 16:42:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login  Schoolcomms/button_LOG IN' is clicked on
+
+2018-02-12 16:42:18 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://labs.schoolcomms.com/payments/active' successfully
+
+2018-02-12 16:42:24 - [MESSAGE][PASSED] - Navigate to 'http://labs.schoolcomms.com/payments/active' successfully
+
+2018-02-12 16:42:24 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-02-12 16:42:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-02-12 16:42:24 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-02-12 16:42:24 - [TEST_STEP][PASSED] - Statement - url = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getUrl(): Current window's url is: 'https://labs.schoolcomms.com/payments/active'
+
+2018-02-12 16:42:24 - [MESSAGE][PASSED] - Current window's url is: 'https://labs.schoolcomms.com/payments/active'
+
+2018-02-12 16:42:24 - [TEST_STEP][PASSED] - verifyEqual: Actual object 'https://labs.schoolcomms.com/payments/active' and expected object 'https://labs.schoolcomms.com/payments/active' are equal
+
+2018-02-12 16:42:24 - [MESSAGE][PASSED] - Actual object 'https://labs.schoolcomms.com/payments/active' and expected object 'https://labs.schoolcomms.com/payments/active' are equal
+
+2018-02-12 16:42:24 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-02-12 16:42:26 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Error Page" classname="Test Cases/Error Page" status="PASSED">
+         <system-out><![CDATA[2018-02-12 16:42:26 - [TEST_CASE][PASSED] - Test Cases/Error Page: Test Cases/Error Page
+
+2018-02-12 16:42:27 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://labs.schoolcomms.com/payments/;alskdfj'
+
+2018-02-12 16:42:50 - [MESSAGE][PASSED] - Browser is opened with url: 'https://labs.schoolcomms.com/payments/;alskdfj'
+
+2018-02-12 16:42:50 - [TEST_STEP][PASSED] - setText: Text 'SupportJamieGA' is set on object 'Object Repository/Page_Login  Schoolcomms/input_Username'
+
+2018-02-12 16:42:51 - [MESSAGE][PASSED] - Text 'SupportJamieGA' is set on object 'Object Repository/Page_Login  Schoolcomms/input_Username'
+
+2018-02-12 16:42:51 - [TEST_STEP][PASSED] - setText: Text 'Summ3r16' is set on object 'Object Repository/Page_Login  Schoolcomms/input_memorabledata'
+
+2018-02-12 16:42:52 - [MESSAGE][PASSED] - Text 'Summ3r16' is set on object 'Object Repository/Page_Login  Schoolcomms/input_memorabledata'
+
+2018-02-12 16:42:52 - [TEST_STEP][PASSED] - setText: Text 'H0lid4ys' is set on object 'Object Repository/Page_Login  Schoolcomms/input_password'
+
+2018-02-12 16:42:53 - [MESSAGE][PASSED] - Text 'H0lid4ys' is set on object 'Object Repository/Page_Login  Schoolcomms/input_password'
+
+2018-02-12 16:42:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Login  Schoolcomms/button_LOG IN' is clicked on
+
+2018-02-12 16:42:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login  Schoolcomms/button_LOG IN' is clicked on
+
+2018-02-12 16:42:55 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-02-12 16:42:55 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Windows\\Temp\\KatalonCaptures\\errorpage.png]]
+
+2018-02-12 16:42:55 - [TEST_STEP][PASSED] - getUrl: Current window's url is: 'https://labs.schoolcomms.com/payments/;alskdfj'
+
+2018-02-12 16:42:55 - [MESSAGE][PASSED] - Current window's url is: 'https://labs.schoolcomms.com/payments/;alskdfj']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Step 1 - POTW - HTTPS Redirect - Not Logged In - Labs" classname="Test Cases/Step 1 - POTW - HTTPS Redirect - Not Logged In - Labs" status="PASSED">
+         <system-out><![CDATA[2018-02-12 16:42:55 - [TEST_CASE][PASSED] - Test Cases/Step 1 - POTW - HTTPS Redirect - Not Logged In - Labs: Test Cases/Step 1 - POTW - HTTPS Redirect - Not Logged In - Labs
+
+2018-02-12 16:42:56 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'www.google.co.uk'
+
+2018-02-12 16:42:56 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-02-12 16:43:14 - [MESSAGE][PASSED] - Browser is opened with url: 'www.google.co.uk'
+
+2018-02-12 16:43:14 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://labs.schoolcomms.com/messaging' successfully
+
+2018-02-12 16:43:16 - [MESSAGE][PASSED] - Navigate to 'http://labs.schoolcomms.com/messaging' successfully
+
+2018-02-12 16:43:16 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-02-12 16:43:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-02-12 16:43:16 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-02-12 16:43:16 - [TEST_STEP][PASSED] - Statement - url = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getUrl(): Current window's url is: 'https://labs.schoolcomms.com/login?ReturnUrl=%2fmessaging'
+
+2018-02-12 16:43:16 - [MESSAGE][PASSED] - Current window's url is: 'https://labs.schoolcomms.com/login?ReturnUrl=%2fmessaging'
+
+2018-02-12 16:43:16 - [TEST_STEP][PASSED] - verifyEqual: Actual object 'https://labs.schoolcomms.com/login?ReturnUrl=%2fmessaging' and expected object 'https://labs.schoolcomms.com/login?ReturnUrl=%2fmessaging' are equal
+
+2018-02-12 16:43:16 - [MESSAGE][PASSED] - Actual object 'https://labs.schoolcomms.com/login?ReturnUrl=%2fmessaging' and expected object 'https://labs.schoolcomms.com/login?ReturnUrl=%2fmessaging' are equal
+
+2018-02-12 16:43:16 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-02-12 16:43:17 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Remember Me" classname="Test Cases/Remember Me" status="PASSED">
+         <system-out><![CDATA[2018-02-12 16:43:17 - [TEST_CASE][PASSED] - Test Cases/Remember Me: Test Cases/Remember Me
+
+2018-02-12 16:43:18 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://labs.schoolcomms.com/payments'
+
+2018-02-12 16:43:30 - [MESSAGE][PASSED] - Browser is opened with url: 'https://labs.schoolcomms.com/payments'
+
+2018-02-12 16:43:30 - [TEST_STEP][PASSED] - setText: Text 'SupportJamieGA' is set on object 'Object Repository/Page_Login  Schoolcomms/input_Username'
+
+2018-02-12 16:43:31 - [MESSAGE][PASSED] - Text 'SupportJamieGA' is set on object 'Object Repository/Page_Login  Schoolcomms/input_Username'
+
+2018-02-12 16:43:31 - [TEST_STEP][PASSED] - setText: Text 'Summ3r16' is set on object 'Object Repository/Page_Login  Schoolcomms/input_memorabledata'
+
+2018-02-12 16:43:31 - [MESSAGE][PASSED] - Text 'Summ3r16' is set on object 'Object Repository/Page_Login  Schoolcomms/input_memorabledata'
+
+2018-02-12 16:43:31 - [TEST_STEP][PASSED] - setText: Text 'H0lid4ys' is set on object 'Object Repository/Page_Login  Schoolcomms/input_password'
+
+2018-02-12 16:43:32 - [MESSAGE][PASSED] - Text 'H0lid4ys' is set on object 'Object Repository/Page_Login  Schoolcomms/input_password'
+
+2018-02-12 16:43:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Login  Schoolcomms/button_LOG IN' is clicked on
+
+2018-02-12 16:43:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login  Schoolcomms/button_LOG IN' is clicked on
+
+2018-02-12 16:43:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Active Payments  Schoolcomms/div_SupportJamieGA' is clicked on
+
+2018-02-12 16:43:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Active Payments  Schoolcomms/div_SupportJamieGA' is clicked on
+
+2018-02-12 16:43:36 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-02-12 16:43:37 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-02-12 16:43:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Active Payments  Schoolcomms/li_Log out' is clicked on
+
+2018-02-12 16:43:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Active Payments  Schoolcomms/li_Log out' is clicked on
+
+2018-02-12 16:43:38 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Page_Login  Schoolcomms/input_Username' has attribute 'Value' with value ''
+
+2018-02-12 16:43:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-02-12 16:43:38 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Login  Schoolcomms/input_Username' has attribute 'Value' with value ''
+
+2018-02-12 16:43:38 - [TEST_STEP][PASSED] - setText: Text 'SupportJamieGA' is set on object 'Object Repository/Page_Login  Schoolcomms/input_Username'
+
+2018-02-12 16:43:38 - [MESSAGE][PASSED] - Text 'SupportJamieGA' is set on object 'Object Repository/Page_Login  Schoolcomms/input_Username'
+
+2018-02-12 16:43:38 - [TEST_STEP][PASSED] - setText: Text 'Summ3r16' is set on object 'Object Repository/Page_Login  Schoolcomms/input_memorabledata'
+
+2018-02-12 16:43:39 - [MESSAGE][PASSED] - Text 'Summ3r16' is set on object 'Object Repository/Page_Login  Schoolcomms/input_memorabledata'
+
+2018-02-12 16:43:39 - [TEST_STEP][PASSED] - setText: Text 'H0lid4ys' is set on object 'Object Repository/Page_Login  Schoolcomms/input_password'
+
+2018-02-12 16:43:39 - [MESSAGE][PASSED] - Text 'H0lid4ys' is set on object 'Object Repository/Page_Login  Schoolcomms/input_password'
+
+2018-02-12 16:43:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Login  Schoolcomms/i_fa fa-square-o' is clicked on
+
+2018-02-12 16:43:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login  Schoolcomms/i_fa fa-square-o' is clicked on
+
+2018-02-12 16:43:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Login  Schoolcomms/button_LOG IN' is clicked on
+
+2018-02-12 16:43:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login  Schoolcomms/button_LOG IN' is clicked on
+
+2018-02-12 16:43:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Active Payments  Schoolcomms/div_SupportJamieGA' is clicked on
+
+2018-02-12 16:43:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Active Payments  Schoolcomms/div_SupportJamieGA' is clicked on
+
+2018-02-12 16:43:44 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-02-12 16:43:45 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-02-12 16:43:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Active Payments  Schoolcomms/li_Log out' is clicked on
+
+2018-02-12 16:43:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Active Payments  Schoolcomms/li_Log out' is clicked on
+
+2018-02-12 16:43:45 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Page_Login  Schoolcomms/input_Username' has attribute 'Value' with value 'SupportJamieGA'
+
+2018-02-12 16:43:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-02-12 16:43:46 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Login  Schoolcomms/input_Username' has attribute 'Value' with value 'SupportJamieGA']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/HTTPS Redirect - Logged In - LIVE" classname="Test Cases/HTTPS Redirect - Logged In - LIVE" status="PASSED">
+         <system-out><![CDATA[2018-02-12 16:43:46 - [TEST_CASE][PASSED] - Test Cases/HTTPS Redirect - Logged In - LIVE: Test Cases/HTTPS Redirect - Logged In - LIVE
+
+2018-02-12 16:43:47 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-02-12 16:43:47 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-02-12 16:43:59 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-02-12 16:43:59 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://app.schoolcomms.com/login?ReturnUrl=%2fmessaging' successfully
+
+2018-02-12 16:44:00 - [MESSAGE][PASSED] - Navigate to 'https://app.schoolcomms.com/login?ReturnUrl=%2fmessaging' successfully
+
+2018-02-12 16:44:00 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/Page_Login  Schoolcomms/input_Username' is double clicked on
+
+2018-02-12 16:44:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login  Schoolcomms/input_Username' is double clicked on
+
+2018-02-12 16:44:00 - [TEST_STEP][PASSED] - setText: Text 'Hillier82' is set on object 'Object Repository/Page_Login  Schoolcomms/input_Username'
+
+2018-02-12 16:44:02 - [MESSAGE][PASSED] - Text 'Hillier82' is set on object 'Object Repository/Page_Login  Schoolcomms/input_Username'
+
+2018-02-12 16:44:02 - [TEST_STEP][PASSED] - setText: Text 'Abigail2014' is set on object 'Object Repository/Page_Login  Schoolcomms/input_memorabledata'
+
+2018-02-12 16:44:02 - [MESSAGE][PASSED] - Text 'Abigail2014' is set on object 'Object Repository/Page_Login  Schoolcomms/input_memorabledata'
+
+2018-02-12 16:44:02 - [TEST_STEP][PASSED] - setText: Text 'Isabel2011' is set on object 'Object Repository/Page_Login  Schoolcomms/input_password'
+
+2018-02-12 16:44:03 - [MESSAGE][PASSED] - Text 'Isabel2011' is set on object 'Object Repository/Page_Login  Schoolcomms/input_password'
+
+2018-02-12 16:44:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Login  Schoolcomms/button_LOG IN' is clicked on
+
+2018-02-12 16:44:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login  Schoolcomms/button_LOG IN' is clicked on
+
+2018-02-12 16:44:08 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://app.schoolcomms.com/payments/active' successfully
+
+2018-02-12 16:44:11 - [MESSAGE][PASSED] - Navigate to 'http://app.schoolcomms.com/payments/active' successfully
+
+2018-02-12 16:44:11 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-02-12 16:44:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-02-12 16:44:11 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-02-12 16:44:11 - [TEST_STEP][PASSED] - Statement - url = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getUrl(): Current window's url is: 'https://app.schoolcomms.com/payments/active'
+
+2018-02-12 16:44:11 - [MESSAGE][PASSED] - Current window's url is: 'https://app.schoolcomms.com/payments/active'
+
+2018-02-12 16:44:11 - [TEST_STEP][PASSED] - verifyEqual: Actual object 'https://app.schoolcomms.com/payments/active' and expected object 'https://app.schoolcomms.com/payments/active' are equal
+
+2018-02-12 16:44:11 - [MESSAGE][PASSED] - Actual object 'https://app.schoolcomms.com/payments/active' and expected object 'https://app.schoolcomms.com/payments/active' are equal
+
+2018-02-12 16:44:11 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-02-12 16:44:11 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-02-12 16:40:37 - [TEST_SUITE][PASSED] - Release Checks: Test Cases/HTTPS Redirect - Logged In - LIVE]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -4,7 +4,7 @@
    <name>Release Checks</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-02-05T15:16:20</lastRun>
+   <lastRun>2018-02-12T16:40:32</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
