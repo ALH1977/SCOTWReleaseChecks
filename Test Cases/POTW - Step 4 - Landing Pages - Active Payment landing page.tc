@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>WHEN I log in to POTW and my school has at least 1:
+- Active Payment Request
+- Future Payment Request
+- Expired Payment Request
+- Cancelled Payment Request
+THEN I will be on the Active Payment landing page AND I will see the other payment request types Future/Expired/Cancelled</description>
+   <name>POTW - Step 4 - Landing Pages - Active Payment landing page</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9dc63b35-92e4-4c3f-96d1-69a8c129eb95</testCaseGuid>
+</TestCaseEntity>
