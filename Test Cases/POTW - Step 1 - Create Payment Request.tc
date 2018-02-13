@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Step 1 - POTW - HTTPS Redirect - Not Logged In - Labs</name>
+   <name>POTW - Step 1 - Create Payment Request</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>ff3aad2b-a360-4d48-907b-5c206b768f6c</testCaseGuid>
+   <testCaseGuid>42122719-13a6-457d-83cc-fc0cb0b39663</testCaseGuid>
 </TestCaseEntity>

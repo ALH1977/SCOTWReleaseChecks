@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description>This confirms that the error pages are functioning correctly</description>
-   <name>Error Page</name>
+   <name>OTW - Step 1 - Error Page</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>f098ba40-5c7a-40c7-80e6-3ddf2f914910</testCaseGuid>

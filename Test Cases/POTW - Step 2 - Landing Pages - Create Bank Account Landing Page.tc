@@ -5,7 +5,7 @@ AND my school does not have a payment request
 AND my school does not have an active bank account
 AND I have permissions to create bank accounts
 THEN I will see the create a bank account landing page</description>
-   <name>Step 2 - POTW - Landing Pages - Create Bank Account Landing Page</name>
+   <name>POTW - Step 2 - Landing Pages - Create Bank Account Landing Page</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>6c82fe71-d0ff-45c5-be83-727447b0d33f</testCaseGuid>

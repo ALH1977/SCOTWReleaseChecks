@@ -21,25 +21,25 @@
       <guid>ec8e3a5f-9524-4583-a9e7-323abebee6a4</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Step 2 - POTW - HTTPS Redirect - Logged In - Labs</testCaseId>
+      <testCaseId>Test Cases/OTW - Step 2 - HTTPS Redirect - Logged In - Labs</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>3ddb662e-b668-4e51-ade0-3bae36208764</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Error Page</testCaseId>
+      <testCaseId>Test Cases/OTW - Step 1 - Error Page</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>0043ba13-246d-40a1-88ab-148abc8f6457</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Step 1 - POTW - HTTPS Redirect - Not Logged In - Labs</testCaseId>
+      <testCaseId>Test Cases/OTW - Page 1 - HTTPS Redirect - Not Logged In - Labs</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>74fe7076-a008-4eef-9f7e-4489e88c7ade</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Remember Me</testCaseId>
+      <testCaseId>Test Cases/OTW - Login_Logout - Remember Me</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
