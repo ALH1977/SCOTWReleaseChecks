@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Payments On The Web Release Checks" time="44" tests="5" failures="0" errors="0">
+   <testsuite name="Payments On The Web Release Checks" tests="5" failures="0" errors="0" time="44" timestamp="2018-02-13 14:23:28" hostname="SchoolComms-Test - schoolcommssair" id="Test Suites/Payments On The Web Release Checks">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/SchoolComms-Test/Documents/GitHub/SCOTWReleaseChecks/Reports/Payments On The Web Release Checks/20180213_142325"/>
+         <property name="logFiles" value="/Users/SchoolComms-Test/Documents/GitHub/SCOTWReleaseChecks/Reports/Payments On The Web Release Checks/20180213_142325/execution0.log"/>
+         <property name="attachments" value="/Users/SchoolComms-Test/Documents/GitHub/SCOTWReleaseChecks/Reports/Payments On The Web Release Checks/20180213_142325/C:\\\\Windows\\\\Temp\\\\KatalonCaptures\\\\No_Pay_Sub_Land_Page.png, /Users/SchoolComms-Test/Documents/GitHub/SCOTWReleaseChecks/Reports/Payments On The Web Release Checks/20180213_142325/C:\\\\Windows\\\\Temp\\\\KatalonCaptures\\\\Clubs_Page.png, /Users/SchoolComms-Test/Documents/GitHub/SCOTWReleaseChecks/Reports/Payments On The Web Release Checks/20180213_142325/C:\\\\Windows\\\\Temp\\\\KatalonCaptures\\\\Create_Bank_Account.png, /Users/SchoolComms-Test/Documents/GitHub/SCOTWReleaseChecks/Reports/Payments On The Web Release Checks/20180213_142325/C:\\\\Windows\\\\Temp\\\\KatalonCaptures\\\\Create_Bank_Account.png, /Users/SchoolComms-Test/Documents/GitHub/SCOTWReleaseChecks/Reports/Payments On The Web Release Checks/20180213_142325/C:\\\\Windows\\\\Temp\\\\KatalonCaptures\\\\Active_Payment_Landing_Page.png, /Users/SchoolComms-Test/Documents/GitHub/SCOTWReleaseChecks/Reports/Payments On The Web Release Checks/20180213_142325/C:\\\\Windows\\\\Temp\\\\KatalonCaptures\\\\Future_Payment_Landing_Page.png, /Users/SchoolComms-Test/Documents/GitHub/SCOTWReleaseChecks/Reports/Payments On The Web Release Checks/20180213_142325/C:\\\\Windows\\\\Temp\\\\KatalonCaptures\\\\SchoolGateway_No_Payment_Showing.png"/>
+         <property name="hostName" value="SchoolComms-Test - schoolcommssair"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="5.3.0.1"/>
+         <property name="browser" value="Chrome 63.0.3239.132"/>
+         <property name="hostAddress" value="192.168.0.6"/>
+         <property name="sessionId" value="c1d034778724201b3b83dff6ad384a67"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/POTW - Landing Pages - Step 1 - No payment Subscription landing page" classname="Test Cases/POTW - Landing Pages - Step 1 - No payment Subscription landing page" status="PASSED">
+         <system-out><![CDATA[2018-02-13 14:23:29 - [TEST_CASE][PASSED] - Test Cases/POTW - Landing Pages - Step 1 - No payment Subscription landing page: Test Cases/POTW - Landing Pages - Step 1 - No payment Subscription landing page
+
+2018-02-13 14:23:30 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-02-13 14:23:33 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-02-13 14:23:33 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://labs.schoolcomms.com/payments/login' successfully
+
+2018-02-13 14:23:34 - [MESSAGE][PASSED] - Navigate to 'https://labs.schoolcomms.com/payments/login' successfully
+
+2018-02-13 14:23:34 - [TEST_STEP][PASSED] - setText: Text 'SCATNPMUA' is set on object 'Object Repository/Page_Login  Schoolcomms (1)/input_Username'
+
+2018-02-13 14:23:35 - [MESSAGE][PASSED] - Text 'SCATNPMUA' is set on object 'Object Repository/Page_Login  Schoolcomms (1)/input_Username'
+
+2018-02-13 14:23:35 - [TEST_STEP][PASSED] - setText: Text 'Summer2018' is set on object 'Object Repository/Page_Login  Schoolcomms (1)/input_memorabledata'
+
+2018-02-13 14:23:35 - [MESSAGE][PASSED] - Text 'Summer2018' is set on object 'Object Repository/Page_Login  Schoolcomms (1)/input_memorabledata'
+
+2018-02-13 14:23:35 - [TEST_STEP][PASSED] - setText: Text 'Summer2019' is set on object 'Object Repository/Page_Login  Schoolcomms (1)/input_password'
+
+2018-02-13 14:23:35 - [MESSAGE][PASSED] - Text 'Summer2019' is set on object 'Object Repository/Page_Login  Schoolcomms (1)/input_password'
+
+2018-02-13 14:23:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Login  Schoolcomms (1)/button_LOG IN' is clicked on
+
+2018-02-13 14:23:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login  Schoolcomms (1)/button_LOG IN' is clicked on
+
+2018-02-13 14:23:37 - [TEST_STEP][PASSED] - Statement - url = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getUrl(): Current window's url is: 'https://labs.schoolcomms.com/payments/'
+
+2018-02-13 14:23:37 - [MESSAGE][PASSED] - Current window's url is: 'https://labs.schoolcomms.com/payments/'
+
+2018-02-13 14:23:37 - [TEST_STEP][PASSED] - verifyEqual: Actual object 'https://labs.schoolcomms.com/payments/' and expected object 'https://labs.schoolcomms.com/payments/' are equal
+
+2018-02-13 14:23:37 - [MESSAGE][PASSED] - Actual object 'https://labs.schoolcomms.com/payments/' and expected object 'https://labs.schoolcomms.com/payments/' are equal
+
+2018-02-13 14:23:37 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-02-13 14:23:37 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/SchoolComms-Test/Documents/GitHub/SCOTWReleaseChecks/Reports/Payments On The Web Release Checks/20180213_142325/C:\\\\Windows\\\\Temp\\\\KatalonCaptures\\\\No_Pay_Sub_Land_Page.png]]
+
+2018-02-13 14:23:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Payments  Schoolcomms (1)/div_menu-toggle' is clicked on
+
+2018-02-13 14:23:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Payments  Schoolcomms (1)/div_menu-toggle' is clicked on
+
+2018-02-13 14:23:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Payments  Schoolcomms (1)/li_Clubs' is clicked on
+
+2018-02-13 14:23:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Payments  Schoolcomms (1)/li_Clubs' is clicked on
+
+2018-02-13 14:23:48 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-02-13 14:23:48 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/SchoolComms-Test/Documents/GitHub/SCOTWReleaseChecks/Reports/Payments On The Web Release Checks/20180213_142325/C:\\\\Windows\\\\Temp\\\\KatalonCaptures\\\\Clubs_Page.png]]
+
+2018-02-13 14:23:48 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-02-13 14:23:49 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/POTW - Landing Pages - Step 2- Create Bank Account Landing Page" classname="Test Cases/POTW - Landing Pages - Step 2- Create Bank Account Landing Page" status="PASSED">
+         <system-out><![CDATA[2018-02-13 14:23:49 - [TEST_CASE][PASSED] - Test Cases/POTW - Landing Pages - Step 2- Create Bank Account Landing Page: Test Cases/POTW - Landing Pages - Step 2- Create Bank Account Landing Page
+
+2018-02-13 14:23:49 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-02-13 14:23:50 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-02-13 14:23:50 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://labs.schoolcomms.com/payments/login' successfully
+
+2018-02-13 14:23:53 - [MESSAGE][PASSED] - Navigate to 'https://labs.schoolcomms.com/payments/login' successfully
+
+2018-02-13 14:23:53 - [TEST_STEP][PASSED] - setText: Text 'SCATPMUA' is set on object 'Object Repository/Page_Login  Schoolcomms (1)/input_Username'
+
+2018-02-13 14:23:53 - [MESSAGE][PASSED] - Text 'SCATPMUA' is set on object 'Object Repository/Page_Login  Schoolcomms (1)/input_Username'
+
+2018-02-13 14:23:53 - [TEST_STEP][PASSED] - setText: Text 'Summer2018' is set on object 'Object Repository/Page_Login  Schoolcomms (1)/input_memorabledata'
+
+2018-02-13 14:23:53 - [MESSAGE][PASSED] - Text 'Summer2018' is set on object 'Object Repository/Page_Login  Schoolcomms (1)/input_memorabledata'
+
+2018-02-13 14:23:53 - [TEST_STEP][PASSED] - setText: Text 'Summer2019' is set on object 'Object Repository/Page_Login  Schoolcomms (1)/input_password'
+
+2018-02-13 14:23:53 - [MESSAGE][PASSED] - Text 'Summer2019' is set on object 'Object Repository/Page_Login  Schoolcomms (1)/input_password'
+
+2018-02-13 14:23:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Login  Schoolcomms (1)/button_LOG IN' is clicked on
+
+2018-02-13 14:23:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login  Schoolcomms (1)/button_LOG IN' is clicked on
+
+2018-02-13 14:23:54 - [TEST_STEP][PASSED] - Statement - url = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getUrl(): Current window's url is: 'https://labs.schoolcomms.com/payments/'
+
+2018-02-13 14:23:54 - [MESSAGE][PASSED] - Current window's url is: 'https://labs.schoolcomms.com/payments/'
+
+2018-02-13 14:23:54 - [TEST_STEP][PASSED] - verifyEqual: Actual object 'https://labs.schoolcomms.com/payments/' and expected object 'https://labs.schoolcomms.com/payments/' are equal
+
+2018-02-13 14:23:54 - [MESSAGE][PASSED] - Actual object 'https://labs.schoolcomms.com/payments/' and expected object 'https://labs.schoolcomms.com/payments/' are equal
+
+2018-02-13 14:23:54 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-02-13 14:23:55 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/SchoolComms-Test/Documents/GitHub/SCOTWReleaseChecks/Reports/Payments On The Web Release Checks/20180213_142325/C:\\\\Windows\\\\Temp\\\\KatalonCaptures\\\\Create_Bank_Account.png]]
+
+2018-02-13 14:23:55 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-02-13 14:23:55 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/POTW - Landing Pages - Step 3 - No Permission to create bank account landing page" classname="Test Cases/POTW - Landing Pages - Step 3 - No Permission to create bank account landing page" status="PASSED">
+         <system-out><![CDATA[2018-02-13 14:23:55 - [TEST_CASE][PASSED] - Test Cases/POTW - Landing Pages - Step 3 - No Permission to create bank account landing page: Test Cases/POTW - Landing Pages - Step 3 - No Permission to create bank account landing page
+
+2018-02-13 14:23:55 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-02-13 14:23:56 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-02-13 14:23:56 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://labs.schoolcomms.com/payments/login' successfully
+
+2018-02-13 14:23:57 - [MESSAGE][PASSED] - Navigate to 'https://labs.schoolcomms.com/payments/login' successfully
+
+2018-02-13 14:23:57 - [TEST_STEP][PASSED] - setText: Text 'SCATPSUO' is set on object 'Object Repository/Page_Login  Schoolcomms (1)/input_Username'
+
+2018-02-13 14:23:57 - [MESSAGE][PASSED] - Text 'SCATPSUO' is set on object 'Object Repository/Page_Login  Schoolcomms (1)/input_Username'
+
+2018-02-13 14:23:57 - [TEST_STEP][PASSED] - setText: Text 'Summer2018' is set on object 'Object Repository/Page_Login  Schoolcomms (1)/input_memorabledata'
+
+2018-02-13 14:23:58 - [MESSAGE][PASSED] - Text 'Summer2018' is set on object 'Object Repository/Page_Login  Schoolcomms (1)/input_memorabledata'
+
+2018-02-13 14:23:58 - [TEST_STEP][PASSED] - setText: Text 'Summer2019' is set on object 'Object Repository/Page_Login  Schoolcomms (1)/input_password'
+
+2018-02-13 14:23:58 - [MESSAGE][PASSED] - Text 'Summer2019' is set on object 'Object Repository/Page_Login  Schoolcomms (1)/input_password'
+
+2018-02-13 14:23:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Login  Schoolcomms (1)/button_LOG IN' is clicked on
+
+2018-02-13 14:23:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login  Schoolcomms (1)/button_LOG IN' is clicked on
+
+2018-02-13 14:23:59 - [TEST_STEP][PASSED] - Statement - url = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getUrl(): Current window's url is: 'https://labs.schoolcomms.com/payments/'
+
+2018-02-13 14:23:59 - [MESSAGE][PASSED] - Current window's url is: 'https://labs.schoolcomms.com/payments/'
+
+2018-02-13 14:23:59 - [TEST_STEP][PASSED] - verifyEqual: Actual object 'https://labs.schoolcomms.com/payments/' and expected object 'https://labs.schoolcomms.com/payments/' are equal
+
+2018-02-13 14:23:59 - [MESSAGE][PASSED] - Actual object 'https://labs.schoolcomms.com/payments/' and expected object 'https://labs.schoolcomms.com/payments/' are equal
+
+2018-02-13 14:23:59 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-02-13 14:23:59 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/SchoolComms-Test/Documents/GitHub/SCOTWReleaseChecks/Reports/Payments On The Web Release Checks/20180213_142325/C:\\\\Windows\\\\Temp\\\\KatalonCaptures\\\\Create_Bank_Account.png]]
+
+2018-02-13 14:23:59 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-02-13 14:23:59 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/POTW - Landing Pages - Step 4 - Active Payment landing page" classname="Test Cases/POTW - Landing Pages - Step 4 - Active Payment landing page" status="PASSED">
+         <system-out><![CDATA[2018-02-13 14:23:59 - [TEST_CASE][PASSED] - Test Cases/POTW - Landing Pages - Step 4 - Active Payment landing page: Test Cases/POTW - Landing Pages - Step 4 - Active Payment landing page
+
+2018-02-13 14:24:00 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-02-13 14:24:00 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-02-13 14:24:00 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://labs.schoolcomms.com/payments/login' successfully
+
+2018-02-13 14:24:02 - [MESSAGE][PASSED] - Navigate to 'https://labs.schoolcomms.com/payments/login' successfully
+
+2018-02-13 14:24:02 - [TEST_STEP][PASSED] - setText: Text 'Hillier82' is set on object 'Object Repository/Page_Login  Schoolcomms (1)/input_Username'
+
+2018-02-13 14:24:02 - [MESSAGE][PASSED] - Text 'Hillier82' is set on object 'Object Repository/Page_Login  Schoolcomms (1)/input_Username'
+
+2018-02-13 14:24:02 - [TEST_STEP][PASSED] - setText: Text 'Abigail2014' is set on object 'Object Repository/Page_Login  Schoolcomms (1)/input_memorabledata'
+
+2018-02-13 14:24:02 - [MESSAGE][PASSED] - Text 'Abigail2014' is set on object 'Object Repository/Page_Login  Schoolcomms (1)/input_memorabledata'
+
+2018-02-13 14:24:02 - [TEST_STEP][PASSED] - setText: Text 'Isabel2011' is set on object 'Object Repository/Page_Login  Schoolcomms (1)/input_password'
+
+2018-02-13 14:24:02 - [MESSAGE][PASSED] - Text 'Isabel2011' is set on object 'Object Repository/Page_Login  Schoolcomms (1)/input_password'
+
+2018-02-13 14:24:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Login  Schoolcomms (1)/button_LOG IN' is clicked on
+
+2018-02-13 14:24:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login  Schoolcomms (1)/button_LOG IN' is clicked on
+
+2018-02-13 14:24:04 - [TEST_STEP][PASSED] - Statement - url = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getUrl(): Current window's url is: 'https://labs.schoolcomms.com/payments/active'
+
+2018-02-13 14:24:04 - [MESSAGE][PASSED] - Current window's url is: 'https://labs.schoolcomms.com/payments/active'
+
+2018-02-13 14:24:04 - [TEST_STEP][PASSED] - verifyEqual: Actual object 'https://labs.schoolcomms.com/payments/active' and expected object 'https://labs.schoolcomms.com/payments/active' are equal
+
+2018-02-13 14:24:04 - [MESSAGE][PASSED] - Actual object 'https://labs.schoolcomms.com/payments/active' and expected object 'https://labs.schoolcomms.com/payments/active' are equal
+
+2018-02-13 14:24:04 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-02-13 14:24:04 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/SchoolComms-Test/Documents/GitHub/SCOTWReleaseChecks/Reports/Payments On The Web Release Checks/20180213_142325/C:\\\\Windows\\\\Temp\\\\KatalonCaptures\\\\Active_Payment_Landing_Page.png]]
+
+2018-02-13 14:24:04 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-02-13 14:24:04 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/POTW - Landing Pages - Step 5 - 0 Active Payment and Other Payment landing page" classname="Test Cases/POTW - Landing Pages - Step 5 - 0 Active Payment and Other Payment landing page" status="PASSED">
+         <system-out><![CDATA[2018-02-13 14:24:04 - [TEST_CASE][PASSED] - Test Cases/POTW - Landing Pages - Step 5 - 0 Active Payment and Other Payment landing page: Test Cases/POTW - Landing Pages - Step 5 - 0 Active Payment and Other Payment landing page
+
+2018-02-13 14:24:04 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-02-13 14:24:05 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-02-13 14:24:05 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://labs.schoolcomms.com/payments/login' successfully
+
+2018-02-13 14:24:07 - [MESSAGE][PASSED] - Navigate to 'https://labs.schoolcomms.com/payments/login' successfully
+
+2018-02-13 14:24:07 - [TEST_STEP][PASSED] - setText: Text 'Hillier77' is set on object 'Object Repository/Page_Login  Schoolcomms (1)/input_Username'
+
+2018-02-13 14:24:07 - [MESSAGE][PASSED] - Text 'Hillier77' is set on object 'Object Repository/Page_Login  Schoolcomms (1)/input_Username'
+
+2018-02-13 14:24:07 - [TEST_STEP][PASSED] - setText: Text 'Abigail2014' is set on object 'Object Repository/Page_Login  Schoolcomms (1)/input_memorabledata'
+
+2018-02-13 14:24:07 - [MESSAGE][PASSED] - Text 'Abigail2014' is set on object 'Object Repository/Page_Login  Schoolcomms (1)/input_memorabledata'
+
+2018-02-13 14:24:07 - [TEST_STEP][PASSED] - setText: Text 'Isabel2011' is set on object 'Object Repository/Page_Login  Schoolcomms (1)/input_password'
+
+2018-02-13 14:24:07 - [MESSAGE][PASSED] - Text 'Isabel2011' is set on object 'Object Repository/Page_Login  Schoolcomms (1)/input_password'
+
+2018-02-13 14:24:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Login  Schoolcomms (1)/button_LOG IN' is clicked on
+
+2018-02-13 14:24:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login  Schoolcomms (1)/button_LOG IN' is clicked on
+
+2018-02-13 14:24:08 - [TEST_STEP][PASSED] - Statement - url = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getUrl(): Current window's url is: 'https://labs.schoolcomms.com/payments/future'
+
+2018-02-13 14:24:08 - [MESSAGE][PASSED] - Current window's url is: 'https://labs.schoolcomms.com/payments/future'
+
+2018-02-13 14:24:08 - [TEST_STEP][PASSED] - verifyEqual: Actual object 'https://labs.schoolcomms.com/payments/future' and expected object 'https://labs.schoolcomms.com/payments/future' are equal
+
+2018-02-13 14:24:08 - [MESSAGE][PASSED] - Actual object 'https://labs.schoolcomms.com/payments/future' and expected object 'https://labs.schoolcomms.com/payments/future' are equal
+
+2018-02-13 14:24:08 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-02-13 14:24:09 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/SchoolComms-Test/Documents/GitHub/SCOTWReleaseChecks/Reports/Payments On The Web Release Checks/20180213_142325/C:\\\\Windows\\\\Temp\\\\KatalonCaptures\\\\Future_Payment_Landing_Page.png]]
+
+2018-02-13 14:24:09 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://login.schoolgateway.com/0/auth/login' successfully
+
+2018-02-13 14:24:10 - [MESSAGE][PASSED] - Navigate to 'https://login.schoolgateway.com/0/auth/login' successfully
+
+2018-02-13 14:24:10 - [TEST_STEP][PASSED] - setText: Text 'ahillier77@gmail.com' is set on object 'Object Repository/Page_School Gateway Login/input_email'
+
+2018-02-13 14:24:10 - [MESSAGE][PASSED] - Text 'ahillier77@gmail.com' is set on object 'Object Repository/Page_School Gateway Login/input_email'
+
+2018-02-13 14:24:10 - [TEST_STEP][PASSED] - setText: Text '5505' is set on object 'Object Repository/Page_School Gateway Login/input_pin'
+
+2018-02-13 14:24:10 - [MESSAGE][PASSED] - Text '5505' is set on object 'Object Repository/Page_School Gateway Login/input_pin'
+
+2018-02-13 14:24:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_School Gateway Login/input_loginButton' is clicked on
+
+2018-02-13 14:24:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_School Gateway Login/input_loginButton' is clicked on
+
+2018-02-13 14:24:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Main Menu  School Gateway/div_menuOption' is clicked on
+
+2018-02-13 14:24:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Main Menu  School Gateway/div_menuOption' is clicked on
+
+2018-02-13 14:24:12 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-02-13 14:24:13 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/SchoolComms-Test/Documents/GitHub/SCOTWReleaseChecks/Reports/Payments On The Web Release Checks/20180213_142325/C:\\\\Windows\\\\Temp\\\\KatalonCaptures\\\\SchoolGateway_No_Payment_Showing.png]]
+
+2018-02-13 14:24:13 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-02-13 14:24:13 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-02-13 14:23:28 - [TEST_SUITE][PASSED] - Payments On The Web Release Checks: Test Cases/POTW - Landing Pages - Step 5 - 0 Active Payment and Other Payment landing page]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

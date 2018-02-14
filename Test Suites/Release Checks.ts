@@ -4,7 +4,7 @@
    <name>Release Checks</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-02-05T15:16:20</lastRun>
+   <lastRun>2018-02-13T15:19:42</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -12,31 +12,25 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>5a8b98a6-b655-49e1-b5c8-db67a6c39efe</testSuiteGuid>
    <testCaseLink>
-      <guid>f49e0231-7067-4dd4-88b4-24ff855207f5</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/HTTPS Redirect - Not Logged In - LIVE</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>ec8e3a5f-9524-4583-a9e7-323abebee6a4</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/OTW - Step 2 - HTTPS Redirect - Logged In - Labs</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>3ddb662e-b668-4e51-ade0-3bae36208764</guid>
+      <guid>b219530f-0814-42ab-9173-8dd1bb05fbf4</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/OTW - Step 1 - Error Page</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>0043ba13-246d-40a1-88ab-148abc8f6457</guid>
+      <guid>26017933-c2f6-44aa-bb99-86bddb5a8679</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/OTW - Page 1 - HTTPS Redirect - Not Logged In - Labs</testCaseId>
+      <testCaseId>Test Cases/OTW - HTTPS Redirect - Step 1- Not Logged In - Labs</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>74fe7076-a008-4eef-9f7e-4489e88c7ade</guid>
+      <guid>c904fc3b-faba-4f2b-b122-00821905e370</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/OTW - HTTPS Redirect - Step 2- Logged In - Labs</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>7ad42969-ff21-4f82-9f07-abb4617772ee</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/OTW - Login_Logout - Remember Me</testCaseId>
@@ -48,9 +42,33 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>2ebab4d4-6740-4c21-a6f5-2cfda42b2543</guid>
+      <guid>40a58f64-d68c-424e-b88e-efddf893131c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/HTTPS Redirect - Logged In - LIVE</testCaseId>
+      <testCaseId>Test Cases/POTW - Landing Pages - Step 1 - No payment Subscription landing page</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>9da0b8fd-ef2c-4cda-9b2f-954f140e0658</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/POTW - Landing Pages - Step 2- Create Bank Account Landing Page</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>5a748623-5859-40e5-8aed-235fd6c5babf</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/POTW - Landing Pages - Step 3 - No Permission to create bank account landing page</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>7cb3089f-bbb7-41b8-bdd2-eebbe9a5c12b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/POTW - Landing Pages - Step 4 - Active Payment landing page</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>e4b39245-37a8-42e6-803a-5233fc20a121</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/POTW - Landing Pages - Step 5 - 0 Active Payment and Other Payment landing page</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

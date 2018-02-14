@@ -1,0 +1,118 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Release Checks,Chrome 63.0.3239.132,,2018-02-13 15:21:26,2018-02-13 15:22:26,59.784s,FAILED
+,,,,,,
+Test Cases/OTW - Step 1 - Error Page,Chrome 63.0.3239.132,This confirms that the error pages are functioning correctly,2018-02-13 15:21:27,2018-02-13 15:21:34,7.727s,PASSED
+openBrowser,Chrome 63.0.3239.132,,2018-02-13 15:21:27,2018-02-13 15:21:32,4.987s,PASSED
+setText,Chrome 63.0.3239.132,,2018-02-13 15:21:32,2018-02-13 15:21:33,0.400s,PASSED
+setText,Chrome 63.0.3239.132,,2018-02-13 15:21:33,2018-02-13 15:21:33,0.235s,PASSED
+setText,Chrome 63.0.3239.132,,2018-02-13 15:21:33,2018-02-13 15:21:33,0.228s,PASSED
+click,Chrome 63.0.3239.132,,2018-02-13 15:21:33,2018-02-13 15:21:34,0.658s,PASSED
+takeScreenshot,Chrome 63.0.3239.132,,2018-02-13 15:21:34,2018-02-13 15:21:34,0.612s,PASSED
+getUrl,Chrome 63.0.3239.132,,2018-02-13 15:21:34,2018-02-13 15:21:34,0.034s,PASSED
+,,,,,,
+Test Cases/OTW - HTTPS Redirect - Step 1- Not Logged In - Labs,Chrome 63.0.3239.132,,2018-02-13 15:21:34,2018-02-13 15:21:41,6.974s,PASSED
+openBrowser,Chrome 63.0.3239.132,,2018-02-13 15:21:35,2018-02-13 15:21:38,3.092s,PASSED
+navigateToUrl,Chrome 63.0.3239.132,,2018-02-13 15:21:38,2018-02-13 15:21:41,3.365s,PASSED
+waitForPageLoad,Chrome 63.0.3239.132,,2018-02-13 15:21:41,2018-02-13 15:21:41,0.063s,PASSED
+Statement - url = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getUrl(),Chrome 63.0.3239.132,,2018-02-13 15:21:41,2018-02-13 15:21:41,0.015s,PASSED
+verifyEqual,Chrome 63.0.3239.132,,2018-02-13 15:21:41,2018-02-13 15:21:41,0.027s,PASSED
+closeBrowser,Chrome 63.0.3239.132,,2018-02-13 15:21:41,2018-02-13 15:21:41,0.118s,PASSED
+,,,,,,
+Test Cases/OTW - HTTPS Redirect - Step 2- Logged In - Labs,Chrome 63.0.3239.132,GIVEN I have logged on to the application I am testing \nWHEN I navigate to another OTW application using http rather than https in the URL e.g. http://labs.schoolcomms.com/payments\nTHEN I am unable to access the screen using HTTP \nAND I am redirected to the same URL on HTTPS e.g https://labs.schoolcomms.com/payments,2018-02-13 15:21:41,2018-02-13 15:21:50,8.473s,PASSED
+openBrowser,Chrome 63.0.3239.132,,2018-02-13 15:21:42,2018-02-13 15:21:43,1.255s,PASSED
+navigateToUrl,Chrome 63.0.3239.132,,2018-02-13 15:21:43,2018-02-13 15:21:44,1.480s,PASSED
+doubleClick,Chrome 63.0.3239.132,,2018-02-13 15:21:44,2018-02-13 15:21:45,0.208s,PASSED
+setText,Chrome 63.0.3239.132,,2018-02-13 15:21:45,2018-02-13 15:21:45,0.245s,PASSED
+setText,Chrome 63.0.3239.132,,2018-02-13 15:21:45,2018-02-13 15:21:45,0.505s,PASSED
+setText,Chrome 63.0.3239.132,,2018-02-13 15:21:45,2018-02-13 15:21:46,0.565s,PASSED
+click,Chrome 63.0.3239.132,,2018-02-13 15:21:46,2018-02-13 15:21:48,2.590s,PASSED
+navigateToUrl,Chrome 63.0.3239.132,,2018-02-13 15:21:48,2018-02-13 15:21:50,1.301s,PASSED
+waitForPageLoad,Chrome 63.0.3239.132,,2018-02-13 15:21:50,2018-02-13 15:21:50,0.015s,PASSED
+Statement - url = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getUrl(),Chrome 63.0.3239.132,,2018-02-13 15:21:50,2018-02-13 15:21:50,0.015s,PASSED
+verifyEqual,Chrome 63.0.3239.132,,2018-02-13 15:21:50,2018-02-13 15:21:50,0.002s,PASSED
+closeBrowser,Chrome 63.0.3239.132,,2018-02-13 15:21:50,2018-02-13 15:21:50,0.106s,PASSED
+,,,,,,
+Test Cases/OTW - Login_Logout - Remember Me,Chrome 63.0.3239.132,This test determines the 'remember me' button is working as expected on the Log in screen,2018-02-13 15:21:50,2018-02-13 15:21:59,9.169s,PASSED
+openBrowser,Chrome 63.0.3239.132,,2018-02-13 15:21:50,2018-02-13 15:21:53,2.481s,PASSED
+setText,Chrome 63.0.3239.132,,2018-02-13 15:21:53,2018-02-13 15:21:53,0.201s,PASSED
+setText,Chrome 63.0.3239.132,,2018-02-13 15:21:53,2018-02-13 15:21:53,0.158s,PASSED
+setText,Chrome 63.0.3239.132,,2018-02-13 15:21:53,2018-02-13 15:21:53,0.183s,PASSED
+click,Chrome 63.0.3239.132,,2018-02-13 15:21:53,2018-02-13 15:21:55,1.335s,PASSED
+click,Chrome 63.0.3239.132,,2018-02-13 15:21:55,2018-02-13 15:21:55,0.219s,PASSED
+delay,Chrome 63.0.3239.132,,2018-02-13 15:21:55,2018-02-13 15:21:56,1.011s,PASSED
+click,Chrome 63.0.3239.132,,2018-02-13 15:21:56,2018-02-13 15:21:56,0.503s,PASSED
+verifyElementAttributeValue,Chrome 63.0.3239.132,,2018-02-13 15:21:56,2018-02-13 15:21:56,0.087s,PASSED
+setText,Chrome 63.0.3239.132,,2018-02-13 15:21:56,2018-02-13 15:21:57,0.287s,PASSED
+setText,Chrome 63.0.3239.132,,2018-02-13 15:21:57,2018-02-13 15:21:57,0.169s,PASSED
+setText,Chrome 63.0.3239.132,,2018-02-13 15:21:57,2018-02-13 15:21:57,0.149s,PASSED
+click,Chrome 63.0.3239.132,,2018-02-13 15:21:57,2018-02-13 15:21:57,0.080s,PASSED
+click,Chrome 63.0.3239.132,,2018-02-13 15:21:57,2018-02-13 15:21:58,0.551s,PASSED
+click,Chrome 63.0.3239.132,,2018-02-13 15:21:58,2018-02-13 15:21:58,0.105s,PASSED
+delay,Chrome 63.0.3239.132,,2018-02-13 15:21:58,2018-02-13 15:21:59,1.006s,PASSED
+click,Chrome 63.0.3239.132,,2018-02-13 15:21:59,2018-02-13 15:21:59,0.293s,PASSED
+verifyElementAttributeValue,Chrome 63.0.3239.132,,2018-02-13 15:21:59,2018-02-13 15:21:59,0.034s,PASSED
+,,,,,,
+Test Cases/POTW - Landing Pages - Step 1 - No payment Subscription landing page,Chrome 63.0.3239.132,GIVEN my school does not have a payments subscription\nWHEN I log in to POTW\nTHEN I will be on the No payments subscription landing page\nAND I can click the hamburger icon in the corner to navigate to another area OTW,2018-02-13 15:21:59,2018-02-13 15:22:04,5.051s,FAILED
+openBrowser,Chrome 63.0.3239.132,,2018-02-13 15:21:59,2018-02-13 15:22:00,1.078s,PASSED
+navigateToUrl,Chrome 63.0.3239.132,,2018-02-13 15:22:00,2018-02-13 15:22:02,1.446s,PASSED
+setText,Chrome 63.0.3239.132,,2018-02-13 15:22:02,2018-02-13 15:22:02,0.195s,PASSED
+setText,Chrome 63.0.3239.132,,2018-02-13 15:22:02,2018-02-13 15:22:02,0.144s,PASSED
+setText,Chrome 63.0.3239.132,,2018-02-13 15:22:02,2018-02-13 15:22:02,0.145s,PASSED
+click,Chrome 63.0.3239.132,,2018-02-13 15:22:02,2018-02-13 15:22:03,1.103s,PASSED
+Statement - url = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getUrl(),Chrome 63.0.3239.132,,2018-02-13 15:22:03,2018-02-13 15:22:03,0.010s,PASSED
+verifyEqual,Chrome 63.0.3239.132,,2018-02-13 15:22:03,2018-02-13 15:22:03,0.001s,PASSED
+takeScreenshot,Chrome 63.0.3239.132,,2018-02-13 15:22:03,2018-02-13 15:22:04,0.353s,PASSED
+click,Chrome 63.0.3239.132,,2018-02-13 15:22:04,2018-02-13 15:22:04,0.082s,PASSED
+click,Chrome 63.0.3239.132,,2018-02-13 15:22:04,2018-02-13 15:22:04,0.364s,FAILED
+,,,,,,
+Test Cases/POTW - Landing Pages - Step 2- Create Bank Account Landing Page,Chrome 63.0.3239.132,WHEN I log in to POTW \nAND my school does not have a payment request\nAND my school does not have an active bank account\nAND I have permissions to create bank accounts\nTHEN I will see the create a bank account landing page,2018-02-13 15:22:04,2018-02-13 15:22:09,4.999s,PASSED
+openBrowser,Chrome 63.0.3239.132,,2018-02-13 15:22:04,2018-02-13 15:22:06,1.377s,PASSED
+navigateToUrl,Chrome 63.0.3239.132,,2018-02-13 15:22:06,2018-02-13 15:22:07,1.550s,PASSED
+setText,Chrome 63.0.3239.132,,2018-02-13 15:22:07,2018-02-13 15:22:08,0.220s,PASSED
+setText,Chrome 63.0.3239.132,,2018-02-13 15:22:08,2018-02-13 15:22:08,0.161s,PASSED
+setText,Chrome 63.0.3239.132,,2018-02-13 15:22:08,2018-02-13 15:22:08,0.187s,PASSED
+click,Chrome 63.0.3239.132,,2018-02-13 15:22:08,2018-02-13 15:22:09,0.797s,PASSED
+Statement - url = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getUrl(),Chrome 63.0.3239.132,,2018-02-13 15:22:09,2018-02-13 15:22:09,0.009s,PASSED
+verifyEqual,Chrome 63.0.3239.132,,2018-02-13 15:22:09,2018-02-13 15:22:09,0.002s,PASSED
+takeScreenshot,Chrome 63.0.3239.132,,2018-02-13 15:22:09,2018-02-13 15:22:09,0.349s,PASSED
+closeBrowser,Chrome 63.0.3239.132,,2018-02-13 15:22:09,2018-02-13 15:22:09,0.106s,PASSED
+,,,,,,
+Test Cases/POTW - Landing Pages - Step 3 - No Permission to create bank account landing page,Chrome 63.0.3239.132,,2018-02-13 15:22:09,2018-02-13 15:22:14,4.696s,PASSED
+openBrowser,Chrome 63.0.3239.132,,2018-02-13 15:22:09,2018-02-13 15:22:11,1.327s,PASSED
+navigateToUrl,Chrome 63.0.3239.132,,2018-02-13 15:22:11,2018-02-13 15:22:12,1.155s,PASSED
+setText,Chrome 63.0.3239.132,,2018-02-13 15:22:12,2018-02-13 15:22:12,0.260s,PASSED
+setText,Chrome 63.0.3239.132,,2018-02-13 15:22:12,2018-02-13 15:22:12,0.158s,PASSED
+setText,Chrome 63.0.3239.132,,2018-02-13 15:22:12,2018-02-13 15:22:12,0.144s,PASSED
+click,Chrome 63.0.3239.132,,2018-02-13 15:22:12,2018-02-13 15:22:13,0.856s,PASSED
+Statement - url = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getUrl(),Chrome 63.0.3239.132,,2018-02-13 15:22:13,2018-02-13 15:22:13,0.010s,PASSED
+verifyEqual,Chrome 63.0.3239.132,,2018-02-13 15:22:13,2018-02-13 15:22:13,0.001s,PASSED
+takeScreenshot,Chrome 63.0.3239.132,,2018-02-13 15:22:13,2018-02-13 15:22:14,0.366s,PASSED
+closeBrowser,Chrome 63.0.3239.132,,2018-02-13 15:22:14,2018-02-13 15:22:14,0.106s,PASSED
+,,,,,,
+Test Cases/POTW - Landing Pages - Step 4 - Active Payment landing page,Chrome 63.0.3239.132,WHEN I log in to POTW and my school has at least 1:\n- Active Payment Request\n- Future Payment Request\n- Expired Payment Request\n- Cancelled Payment Request\nTHEN I will be on the Active Payment landing page AND I will see the other payment request types Future/Expired/Cancelled,2018-02-13 15:22:14,2018-02-13 15:22:18,4.064s,FAILED
+openBrowser,Chrome 63.0.3239.132,,2018-02-13 15:22:14,2018-02-13 15:22:15,0.941s,PASSED
+navigateToUrl,Chrome 63.0.3239.132,,2018-02-13 15:22:15,2018-02-13 15:22:16,1.215s,PASSED
+setText,Chrome 63.0.3239.132,,2018-02-13 15:22:16,2018-02-13 15:22:16,0.219s,PASSED
+setText,Chrome 63.0.3239.132,,2018-02-13 15:22:16,2018-02-13 15:22:17,0.188s,PASSED
+setText,Chrome 63.0.3239.132,,2018-02-13 15:22:17,2018-02-13 15:22:17,0.151s,PASSED
+click,Chrome 63.0.3239.132,,2018-02-13 15:22:17,2018-02-13 15:22:18,1.164s,PASSED
+Statement - url = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getUrl(),Chrome 63.0.3239.132,,2018-02-13 15:22:18,2018-02-13 15:22:18,0.012s,PASSED
+verifyEqual,Chrome 63.0.3239.132,,2018-02-13 15:22:18,2018-02-13 15:22:18,0.001s,FAILED
+,,,,,,
+Test Cases/POTW - Landing Pages - Step 5 - 0 Active Payment and Other Payment landing page,Chrome 63.0.3239.132,WHEN I log in to POTW\nAND my school has 0 Active Payment Request and at least 1 of these payment requests:\n- Future\n- Expired\n- Cancelled\nTHEN i will be on the Future/Expired/Cancelled payment request landing page\nAND I will see the options for the other payment request types\nAND I will not see the menu for Active Payment requests\nAND the payment request is not shown in School Gateway,2018-02-13 15:22:18,2018-02-13 15:22:26,7.781s,PASSED
+openBrowser,Chrome 63.0.3239.132,,2018-02-13 15:22:18,2018-02-13 15:22:19,1.040s,PASSED
+navigateToUrl,Chrome 63.0.3239.132,,2018-02-13 15:22:19,2018-02-13 15:22:20,1.064s,PASSED
+setText,Chrome 63.0.3239.132,,2018-02-13 15:22:20,2018-02-13 15:22:20,0.193s,PASSED
+setText,Chrome 63.0.3239.132,,2018-02-13 15:22:20,2018-02-13 15:22:20,0.158s,PASSED
+setText,Chrome 63.0.3239.132,,2018-02-13 15:22:20,2018-02-13 15:22:21,0.173s,PASSED
+click,Chrome 63.0.3239.132,,2018-02-13 15:22:21,2018-02-13 15:22:22,0.971s,PASSED
+Statement - url = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getUrl(),Chrome 63.0.3239.132,,2018-02-13 15:22:22,2018-02-13 15:22:22,0.011s,PASSED
+verifyEqual,Chrome 63.0.3239.132,,2018-02-13 15:22:22,2018-02-13 15:22:22,0.001s,PASSED
+takeScreenshot,Chrome 63.0.3239.132,,2018-02-13 15:22:22,2018-02-13 15:22:22,0.397s,PASSED
+navigateToUrl,Chrome 63.0.3239.132,,2018-02-13 15:22:22,2018-02-13 15:22:23,0.904s,PASSED
+setText,Chrome 63.0.3239.132,,2018-02-13 15:22:23,2018-02-13 15:22:23,0.297s,PASSED
+setText,Chrome 63.0.3239.132,,2018-02-13 15:22:23,2018-02-13 15:22:23,0.176s,PASSED
+click,Chrome 63.0.3239.132,,2018-02-13 15:22:23,2018-02-13 15:22:25,1.394s,PASSED
+click,Chrome 63.0.3239.132,,2018-02-13 15:22:25,2018-02-13 15:22:25,0.446s,PASSED
+takeScreenshot,Chrome 63.0.3239.132,,2018-02-13 15:22:25,2018-02-13 15:22:26,0.254s,PASSED
+closeBrowser,Chrome 63.0.3239.132,,2018-02-13 15:22:26,2018-02-13 15:22:26,0.159s,PASSED

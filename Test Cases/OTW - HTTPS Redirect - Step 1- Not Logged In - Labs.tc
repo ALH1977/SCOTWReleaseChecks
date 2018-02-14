@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>OTW - HTTPS Redirect - Step 1- Not Logged In - Labs</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ff3aad2b-a360-4d48-907b-5c206b768f6c</testCaseGuid>
+</TestCaseEntity>

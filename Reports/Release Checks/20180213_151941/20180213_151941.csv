@@ -1,0 +1,122 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Release Checks,Firefox 58.0,,2018-02-13 15:19:45,2018-02-13 15:21:20,1m - 35.582s,PASSED
+,,,,,,
+Test Cases/OTW - Step 1 - Error Page,Firefox 58.0,This confirms that the error pages are functioning correctly,2018-02-13 15:19:46,2018-02-13 15:19:56,10.238s,PASSED
+openBrowser,Firefox 58.0,,2018-02-13 15:19:46,2018-02-13 15:19:54,7.757s,PASSED
+setText,Firefox 58.0,,2018-02-13 15:19:54,2018-02-13 15:19:54,0.267s,PASSED
+setText,Firefox 58.0,,2018-02-13 15:19:54,2018-02-13 15:19:54,0.074s,PASSED
+setText,Firefox 58.0,,2018-02-13 15:19:54,2018-02-13 15:19:54,0.084s,PASSED
+click,Firefox 58.0,,2018-02-13 15:19:54,2018-02-13 15:19:55,1.113s,PASSED
+takeScreenshot,Firefox 58.0,,2018-02-13 15:19:55,2018-02-13 15:19:56,0.298s,PASSED
+getUrl,Firefox 58.0,,2018-02-13 15:19:56,2018-02-13 15:19:56,0.023s,PASSED
+,,,,,,
+Test Cases/OTW - HTTPS Redirect - Step 1- Not Logged In - Labs,Firefox 58.0,,2018-02-13 15:19:56,2018-02-13 15:20:11,15.252s,PASSED
+openBrowser,Firefox 58.0,,2018-02-13 15:19:56,2018-02-13 15:20:04,8.383s,PASSED
+navigateToUrl,Firefox 58.0,,2018-02-13 15:20:04,2018-02-13 15:20:11,6.143s,PASSED
+waitForPageLoad,Firefox 58.0,,2018-02-13 15:20:11,2018-02-13 15:20:11,0.065s,PASSED
+Statement - url = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getUrl(),Firefox 58.0,,2018-02-13 15:20:11,2018-02-13 15:20:11,0.008s,PASSED
+verifyEqual,Firefox 58.0,,2018-02-13 15:20:11,2018-02-13 15:20:11,0.019s,PASSED
+closeBrowser,Firefox 58.0,,2018-02-13 15:20:11,2018-02-13 15:20:11,0.282s,PASSED
+,,,,,,
+Test Cases/OTW - HTTPS Redirect - Step 2- Logged In - Labs,Firefox 58.0,GIVEN I have logged on to the application I am testing \nWHEN I navigate to another OTW application using http rather than https in the URL e.g. http://labs.schoolcomms.com/payments\nTHEN I am unable to access the screen using HTTP \nAND I am redirected to the same URL on HTTPS e.g https://labs.schoolcomms.com/payments,2018-02-13 15:20:11,2018-02-13 15:20:24,13.090s,PASSED
+openBrowser,Firefox 58.0,,2018-02-13 15:20:11,2018-02-13 15:20:15,4.185s,PASSED
+navigateToUrl,Firefox 58.0,,2018-02-13 15:20:15,2018-02-13 15:20:16,0.987s,PASSED
+doubleClick,Firefox 58.0,,2018-02-13 15:20:16,2018-02-13 15:20:17,0.274s,PASSED
+setText,Firefox 58.0,,2018-02-13 15:20:17,2018-02-13 15:20:17,0.093s,PASSED
+setText,Firefox 58.0,,2018-02-13 15:20:17,2018-02-13 15:20:17,0.073s,PASSED
+setText,Firefox 58.0,,2018-02-13 15:20:17,2018-02-13 15:20:17,0.062s,PASSED
+click,Firefox 58.0,,2018-02-13 15:20:17,2018-02-13 15:20:22,5.245s,PASSED
+navigateToUrl,Firefox 58.0,,2018-02-13 15:20:22,2018-02-13 15:20:24,1.561s,PASSED
+waitForPageLoad,Firefox 58.0,,2018-02-13 15:20:24,2018-02-13 15:20:24,0.020s,PASSED
+Statement - url = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getUrl(),Firefox 58.0,,2018-02-13 15:20:24,2018-02-13 15:20:24,0.012s,PASSED
+verifyEqual,Firefox 58.0,,2018-02-13 15:20:24,2018-02-13 15:20:24,0.002s,PASSED
+closeBrowser,Firefox 58.0,,2018-02-13 15:20:24,2018-02-13 15:20:24,0.339s,PASSED
+,,,,,,
+Test Cases/OTW - Login_Logout - Remember Me,Firefox 58.0,This test determines the 'remember me' button is working as expected on the Log in screen,2018-02-13 15:20:24,2018-02-13 15:20:36,11.586s,PASSED
+openBrowser,Firefox 58.0,,2018-02-13 15:20:24,2018-02-13 15:20:29,4.469s,PASSED
+setText,Firefox 58.0,,2018-02-13 15:20:29,2018-02-13 15:20:29,0.089s,PASSED
+setText,Firefox 58.0,,2018-02-13 15:20:29,2018-02-13 15:20:29,0.092s,PASSED
+setText,Firefox 58.0,,2018-02-13 15:20:29,2018-02-13 15:20:29,0.068s,PASSED
+click,Firefox 58.0,,2018-02-13 15:20:29,2018-02-13 15:20:31,1.640s,PASSED
+click,Firefox 58.0,,2018-02-13 15:20:31,2018-02-13 15:20:31,0.243s,PASSED
+delay,Firefox 58.0,,2018-02-13 15:20:31,2018-02-13 15:20:32,1.012s,PASSED
+click,Firefox 58.0,,2018-02-13 15:20:32,2018-02-13 15:20:32,0.402s,PASSED
+verifyElementAttributeValue,Firefox 58.0,,2018-02-13 15:20:32,2018-02-13 15:20:32,0.060s,PASSED
+setText,Firefox 58.0,,2018-02-13 15:20:32,2018-02-13 15:20:33,0.051s,PASSED
+setText,Firefox 58.0,,2018-02-13 15:20:33,2018-02-13 15:20:33,0.055s,PASSED
+setText,Firefox 58.0,,2018-02-13 15:20:33,2018-02-13 15:20:33,0.058s,PASSED
+click,Firefox 58.0,,2018-02-13 15:20:33,2018-02-13 15:20:33,0.235s,PASSED
+click,Firefox 58.0,,2018-02-13 15:20:33,2018-02-13 15:20:34,0.984s,PASSED
+click,Firefox 58.0,,2018-02-13 15:20:34,2018-02-13 15:20:34,0.337s,PASSED
+delay,Firefox 58.0,,2018-02-13 15:20:34,2018-02-13 15:20:35,1.003s,PASSED
+click,Firefox 58.0,,2018-02-13 15:20:35,2018-02-13 15:20:36,0.442s,PASSED
+verifyElementAttributeValue,Firefox 58.0,,2018-02-13 15:20:36,2018-02-13 15:20:36,0.055s,PASSED
+,,,,,,
+Test Cases/POTW - Landing Pages - Step 1 - No payment Subscription landing page,Firefox 58.0,GIVEN my school does not have a payments subscription\nWHEN I log in to POTW\nTHEN I will be on the No payments subscription landing page\nAND I can click the hamburger icon in the corner to navigate to another area OTW,2018-02-13 15:20:36,2018-02-13 15:20:48,12.532s,PASSED
+openBrowser,Firefox 58.0,,2018-02-13 15:20:36,2018-02-13 15:20:39,3.441s,PASSED
+navigateToUrl,Firefox 58.0,,2018-02-13 15:20:39,2018-02-13 15:20:41,1.424s,PASSED
+setText,Firefox 58.0,,2018-02-13 15:20:41,2018-02-13 15:20:41,0.072s,PASSED
+setText,Firefox 58.0,,2018-02-13 15:20:41,2018-02-13 15:20:41,0.069s,PASSED
+setText,Firefox 58.0,,2018-02-13 15:20:41,2018-02-13 15:20:41,0.052s,PASSED
+click,Firefox 58.0,,2018-02-13 15:20:41,2018-02-13 15:20:42,1.271s,PASSED
+Statement - url = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getUrl(),Firefox 58.0,,2018-02-13 15:20:42,2018-02-13 15:20:42,0.006s,PASSED
+verifyEqual,Firefox 58.0,,2018-02-13 15:20:42,2018-02-13 15:20:42,0.002s,PASSED
+takeScreenshot,Firefox 58.0,,2018-02-13 15:20:42,2018-02-13 15:20:42,0.187s,PASSED
+click,Firefox 58.0,,2018-02-13 15:20:42,2018-02-13 15:20:43,0.242s,PASSED
+click,Firefox 58.0,,2018-02-13 15:20:43,2018-02-13 15:20:48,5.237s,PASSED
+takeScreenshot,Firefox 58.0,,2018-02-13 15:20:48,2018-02-13 15:20:48,0.107s,PASSED
+closeBrowser,Firefox 58.0,,2018-02-13 15:20:48,2018-02-13 15:20:48,0.269s,PASSED
+,,,,,,
+Test Cases/POTW - Landing Pages - Step 2- Create Bank Account Landing Page,Firefox 58.0,WHEN I log in to POTW \nAND my school does not have a payment request\nAND my school does not have an active bank account\nAND I have permissions to create bank accounts\nTHEN I will see the create a bank account landing page,2018-02-13 15:20:48,2018-02-13 15:20:55,6.800s,PASSED
+openBrowser,Firefox 58.0,,2018-02-13 15:20:48,2018-02-13 15:20:52,3.725s,PASSED
+navigateToUrl,Firefox 58.0,,2018-02-13 15:20:52,2018-02-13 15:20:53,1.161s,PASSED
+setText,Firefox 58.0,,2018-02-13 15:20:53,2018-02-13 15:20:53,0.083s,PASSED
+setText,Firefox 58.0,,2018-02-13 15:20:53,2018-02-13 15:20:54,0.078s,PASSED
+setText,Firefox 58.0,,2018-02-13 15:20:54,2018-02-13 15:20:54,0.056s,PASSED
+click,Firefox 58.0,,2018-02-13 15:20:54,2018-02-13 15:20:55,1.100s,PASSED
+Statement - url = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getUrl(),Firefox 58.0,,2018-02-13 15:20:55,2018-02-13 15:20:55,0.008s,PASSED
+verifyEqual,Firefox 58.0,,2018-02-13 15:20:55,2018-02-13 15:20:55,0.002s,PASSED
+takeScreenshot,Firefox 58.0,,2018-02-13 15:20:55,2018-02-13 15:20:55,0.134s,PASSED
+closeBrowser,Firefox 58.0,,2018-02-13 15:20:55,2018-02-13 15:20:55,0.231s,PASSED
+,,,,,,
+Test Cases/POTW - Landing Pages - Step 3 - No Permission to create bank account landing page,Firefox 58.0,,2018-02-13 15:20:55,2018-02-13 15:21:02,7.382s,PASSED
+openBrowser,Firefox 58.0,,2018-02-13 15:20:55,2018-02-13 15:20:59,4.117s,PASSED
+navigateToUrl,Firefox 58.0,,2018-02-13 15:20:59,2018-02-13 15:21:01,1.209s,PASSED
+setText,Firefox 58.0,,2018-02-13 15:21:01,2018-02-13 15:21:01,0.081s,PASSED
+setText,Firefox 58.0,,2018-02-13 15:21:01,2018-02-13 15:21:01,0.079s,PASSED
+setText,Firefox 58.0,,2018-02-13 15:21:01,2018-02-13 15:21:01,0.115s,PASSED
+click,Firefox 58.0,,2018-02-13 15:21:01,2018-02-13 15:21:02,1.244s,PASSED
+Statement - url = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getUrl(),Firefox 58.0,,2018-02-13 15:21:02,2018-02-13 15:21:02,0.007s,PASSED
+verifyEqual,Firefox 58.0,,2018-02-13 15:21:02,2018-02-13 15:21:02,0.001s,PASSED
+takeScreenshot,Firefox 58.0,,2018-02-13 15:21:02,2018-02-13 15:21:02,0.149s,PASSED
+closeBrowser,Firefox 58.0,,2018-02-13 15:21:02,2018-02-13 15:21:02,0.235s,PASSED
+,,,,,,
+Test Cases/POTW - Landing Pages - Step 4 - Active Payment landing page,Firefox 58.0,WHEN I log in to POTW and my school has at least 1:\n- Active Payment Request\n- Future Payment Request\n- Expired Payment Request\n- Cancelled Payment Request\nTHEN I will be on the Active Payment landing page AND I will see the other payment request types Future/Expired/Cancelled,2018-02-13 15:21:02,2018-02-13 15:21:09,7.063s,PASSED
+openBrowser,Firefox 58.0,,2018-02-13 15:21:03,2018-02-13 15:21:06,3.803s,PASSED
+navigateToUrl,Firefox 58.0,,2018-02-13 15:21:06,2018-02-13 15:21:07,1.005s,PASSED
+setText,Firefox 58.0,,2018-02-13 15:21:07,2018-02-13 15:21:07,0.073s,PASSED
+setText,Firefox 58.0,,2018-02-13 15:21:07,2018-02-13 15:21:08,0.069s,PASSED
+setText,Firefox 58.0,,2018-02-13 15:21:08,2018-02-13 15:21:08,0.053s,PASSED
+click,Firefox 58.0,,2018-02-13 15:21:08,2018-02-13 15:21:09,1.406s,PASSED
+Statement - url = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getUrl(),Firefox 58.0,,2018-02-13 15:21:09,2018-02-13 15:21:09,0.008s,PASSED
+verifyEqual,Firefox 58.0,,2018-02-13 15:21:09,2018-02-13 15:21:09,0.001s,PASSED
+takeScreenshot,Firefox 58.0,,2018-02-13 15:21:09,2018-02-13 15:21:09,0.182s,PASSED
+closeBrowser,Firefox 58.0,,2018-02-13 15:21:09,2018-02-13 15:21:09,0.318s,PASSED
+,,,,,,
+Test Cases/POTW - Landing Pages - Step 5 - 0 Active Payment and Other Payment landing page,Firefox 58.0,WHEN I log in to POTW\nAND my school has 0 Active Payment Request and at least 1 of these payment requests:\n- Future\n- Expired\n- Cancelled\nTHEN i will be on the Future/Expired/Cancelled payment request landing page\nAND I will see the options for the other payment request types\nAND I will not see the menu for Active Payment requests\nAND the payment request is not shown in School Gateway,2018-02-13 15:21:09,2018-02-13 15:21:20,10.897s,PASSED
+openBrowser,Firefox 58.0,,2018-02-13 15:21:10,2018-02-13 15:21:13,3.301s,PASSED
+navigateToUrl,Firefox 58.0,,2018-02-13 15:21:13,2018-02-13 15:21:15,1.634s,PASSED
+setText,Firefox 58.0,,2018-02-13 15:21:15,2018-02-13 15:21:15,0.070s,PASSED
+setText,Firefox 58.0,,2018-02-13 15:21:15,2018-02-13 15:21:15,0.073s,PASSED
+setText,Firefox 58.0,,2018-02-13 15:21:15,2018-02-13 15:21:15,0.065s,PASSED
+click,Firefox 58.0,,2018-02-13 15:21:15,2018-02-13 15:21:16,1.359s,PASSED
+Statement - url = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getUrl(),Firefox 58.0,,2018-02-13 15:21:16,2018-02-13 15:21:16,0.030s,PASSED
+verifyEqual,Firefox 58.0,,2018-02-13 15:21:16,2018-02-13 15:21:16,0.002s,PASSED
+takeScreenshot,Firefox 58.0,,2018-02-13 15:21:16,2018-02-13 15:21:16,0.198s,PASSED
+navigateToUrl,Firefox 58.0,,2018-02-13 15:21:16,2018-02-13 15:21:18,1.348s,PASSED
+setText,Firefox 58.0,,2018-02-13 15:21:18,2018-02-13 15:21:18,0.055s,PASSED
+setText,Firefox 58.0,,2018-02-13 15:21:18,2018-02-13 15:21:18,0.064s,PASSED
+click,Firefox 58.0,,2018-02-13 15:21:18,2018-02-13 15:21:19,1.390s,PASSED
+click,Firefox 58.0,,2018-02-13 15:21:19,2018-02-13 15:21:20,0.692s,PASSED
+takeScreenshot,Firefox 58.0,,2018-02-13 15:21:20,2018-02-13 15:21:20,0.167s,PASSED
+closeBrowser,Firefox 58.0,,2018-02-13 15:21:20,2018-02-13 15:21:20,0.311s,PASSED

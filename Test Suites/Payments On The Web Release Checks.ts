@@ -4,6 +4,7 @@
    <name>Payments On The Web Release Checks</name>
    <tag></tag>
    <isRerun>false</isRerun>
+   <lastRun>2018-02-13T14:23:25</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -14,30 +15,30 @@
       <guid>9c7a3289-cdfa-4d8b-b3ed-1cb01a2492b4</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/POTW - Step 1 - Landing Pages - No payment Subscription landing page</testCaseId>
+      <testCaseId>Test Cases/POTW - Landing Pages - Step 1 - No payment Subscription landing page</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>c13c8acb-1700-49d4-8cde-d5f4b4d07b0e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/POTW - Step 2 - Landing Pages - Create Bank Account Landing Page</testCaseId>
+      <testCaseId>Test Cases/POTW - Landing Pages - Step 2- Create Bank Account Landing Page</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>48c6f217-68b7-4039-be62-e7fa18b1b5be</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/POTW - Step 3 - Landing Pages - No Permission to create bank account landing page</testCaseId>
+      <testCaseId>Test Cases/POTW - Landing Pages - Step 3 - No Permission to create bank account landing page</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>8b526c48-28cb-4569-a924-860a25520442</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/POTW - Step 4 - Landing Pages - Active Payment landing page</testCaseId>
+      <testCaseId>Test Cases/POTW - Landing Pages - Step 4 - Active Payment landing page</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>63d90e12-eedd-4253-a7c2-c6191f8b8ef4</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/POTW - Step 5 - Landing Pages - 0 Active Payment and Other Payment landing page</testCaseId>
+      <testCaseId>Test Cases/POTW - Landing Pages - Step 5 - 0 Active Payment and Other Payment landing page</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
